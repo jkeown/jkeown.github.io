@@ -1,0 +1,141 @@
+* {
+ border: 0;
+ margin: 0;
+ padding: 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+body {
+  background: linear-gradient(to top, #333, #999);
+  height: 100vh;
+  font-family: Roboto;
+}
+
+footer {
+  position: absolute;
+  bottom: 2px;
+  left: 2px;
+}
+
+form label {
+  display: none;
+}
+
+img {
+  height: 50px;
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+
+input {
+  font-size: 1.5rem;
+  height: 2rem;
+  margin-bottom: 10px;
+  width: 95%;
+}
+
+input, label, textarea {
+  font-family: inherit;
+}
+
+input:focus {
+  background: aqua;
+}
+textarea {
+  font-size: 1.5rem;
+  height: 5rem;
+  margin-bottom: 10px;
+  width: 95%;
+}
+
+textarea::-webkit-input-placeholder {
+  color: red;
+}
+
+::-webkit-input-placeholder {
+  padding-left: 5px;
+}
+
+.slide {
+  color: purple;
+  float: right;
+  font-size: 70px;
+  position: relative;
+  right: 10px;
+  z-index: 2;
+}
+
+#button {
+  text-align: center;
+}
+
+#form {
+  margin: 0 auto;
+  width: 80vw;
+}
+
+#mail::-webkit-input-placeholder {
+  color: red;
+}
+
+#navslide {
+  background-color: black;
+  color: white;
+  position: fixed;
+  left:0;
+  top: -260px;
+  transition: top 0.5s ease;
+  width: 100vw;
+  z-index: 1;
+}
+
+#navslide ul li {
+  padding: 20px;
+  text-align: center;
+}
+
+#navslide ul li:hover {
+  background: #555;
+}
+
+#required {
+  color: red;
+  font-size: 2rem;
+  padding-left: 2px;
+}
+
+#salutation {
+  margin: 10px auto;
+  padding-top: 10px;
+  width: 80vw;
+  text-align: ;
+}
+
+#slidetoggle {
+  display: none;
+}
+
+#slidetoggle:checked ~ nav {
+  top: 0;
+}
+
+#submit {
+  background: rgba(128, 0 , 128, 0.5);
+  border: 3px solid purple;
+  border-radius: 5px;
+  font-size: 1.25rem;
+  height: auto;
+  padding: 10px;
+  max-width: 80%;
+}
+
+/* Responsive layouts below */
+
+@media screen and (min-width: 600px) {
+  
+}

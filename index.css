@@ -1,0 +1,99 @@
+* {
+ border: 0;
+ margin: 0;
+ padding: 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+body {
+  background: linear-gradient(to right, #222, #999);
+  height: 100vh;
+  font-family: Roboto;
+}
+
+footer {
+  position: absolute;
+  bottom: 2px;
+  left: 2px;
+}
+
+h1 {
+  color: white;
+  margin-top: 10vh;
+  text-align: center;
+  text-shadow: 0 0 5px black;
+}
+
+img {
+  height: 50px;
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+
+.slide {
+  color: purple;
+  float: right;
+  font-size: 70px;
+  position: relative;
+  right: 10px;
+  z-index: 2;
+}
+
+#button {
+  background: rgba(128, 0 , 128, 0.9);
+  border: 3px solid purple;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  margin: 20vh auto;
+  padding: 10px;
+  max-width: 200px;
+  text-align: center;
+}
+
+#main { 
+  background: url(images/pc.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+#navslide {
+  background-color: black;
+  color: white;
+  position: fixed;
+  left:0;
+  top: -260px;
+  transition: top 0.5s ease;
+  width: 100vw;
+  z-index: 1;
+}
+
+#navslide ul li {
+  padding: 20px;
+  text-align: center;
+}
+
+#navslide ul li:hover {
+  background: #555;
+}
+  
+#slidetoggle {
+  display: none;
+}
+
+#slidetoggle:checked ~ nav {
+  top: 0;
+}
+
+
+/* Responsive layouts below */
+
+@media screen and (min-width: 600px) {
+  
+}
