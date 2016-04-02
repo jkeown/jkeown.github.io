@@ -44,9 +44,6 @@ input, label, textarea {
   font-family: inherit;
 }
 
-input:focus {
-  background: aqua;
-}
 textarea {
   font-size: 1.5rem;
   height: 7rem;
