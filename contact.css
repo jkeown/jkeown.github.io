@@ -11,12 +11,12 @@ a {
 
 body {
   background: linear-gradient(to top, #333, #999);
-  height: 100vh;
+  min-height: 100vh;
   font-family: Roboto;
 }
 
 footer {
-  position: absolute;
+  position: relative;
   bottom: 2px;
   left: 2px;
 }
@@ -48,7 +48,7 @@ input:focus {
 }
 textarea {
   font-size: 1.5rem;
-  height: 7rem;
+  height: 5rem;
   margin-bottom: 10px;
   width: 95%;
 }
@@ -81,6 +81,10 @@ textarea::-webkit-input-placeholder {
 
 #mail::-webkit-input-placeholder {
   color: red;
+}
+
+#main {
+  flex: 1;
 }
 
 #navslide {
@@ -132,6 +136,12 @@ textarea::-webkit-input-placeholder {
   height: auto;
   padding: 10px;
   max-width: 80%;
+}
+
+#wrap {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 /* Responsive layouts below */
