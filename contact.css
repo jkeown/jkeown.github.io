@@ -81,9 +81,9 @@ textarea::-webkit-input-placeholder {
   color: red;
 }
 
-/*#main {
+#main {
   flex: 1 0 auto;
-}*/
+}
 
 #navslide {
   background-color: black;
@@ -139,7 +139,6 @@ textarea::-webkit-input-placeholder {
 #wrap {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   min-height: 100vh;
 }
 
