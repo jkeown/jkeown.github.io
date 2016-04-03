@@ -52,7 +52,7 @@ textarea {
 }
 
 textarea::-webkit-input-placeholder {
-  color: red;
+  color: purple;
 }
 
 ::-webkit-input-placeholder {
@@ -78,7 +78,7 @@ textarea::-webkit-input-placeholder {
 }
 
 #mail::-webkit-input-placeholder {
-  color: red;
+  color: purple;
 }
 
 #main {
