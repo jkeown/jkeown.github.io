@@ -45,18 +45,19 @@ img {
 }
 
 #button {
-  background: rgba(128, 0 , 128, 0.9);
+  background: rgba(128, 0 , 128, 0.7);
   border: 3px solid purple;
   border-radius: 5px;
   font-size: 1.5rem;
   margin: 20vh auto;
   padding: 10px;
-  max-width: 250px;
+  max-width: 200px;
   text-align: center;
+  text-shadow: 0 0 10px purple;
 }
 
 #main { 
-  background: url(images/pc.jpg);
+  background: url(images/nomonitor.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
