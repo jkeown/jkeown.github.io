@@ -26,6 +26,16 @@
       </div>
       <div id="form">
 	<form action="//formspree.io/jkeownwebdev@gmail.com" method="POST">
+	  <div id="textarea">
+	    <label for="msg"><span lang:en>How may I serve you:</span></label><br/>
+	    <textarea id="msg" name="company info" placeholder="Please describe your company and its current goals..." required></textarea>
+	  </div>
+	  
+	  <div>
+	    <label for="mail"><span lang:en>E-mail:</span></label>
+	    <input type="email" id="mail" required name="email" placeholder="E-mail"/>
+	  </div>
+	  
 	  <div>
 	    <label for="name"><span lang:en>Name:</span></label>
 	    <input type="text" id="name" name="name" placeholder="Name"/>
@@ -37,11 +47,6 @@
 	  </div>
 
 	  <div>
-	    <label for="mail"><span lang:en>E-mail:</span></label>
-	    <input type="email" id="mail" required name="email" placeholder="E-mail"/>
-	  </div>
-
-	  <div>
 	    <label for="phone"><span lang:en>Phone:</span></label>
 	    <input type="tel" id="phone" name="phone" placeholder="Phone 555-123-4567"/>
 	  </div>
@@ -49,11 +54,6 @@
 	  <div>
 	    <label for="website"><span lang:en>Website:</span></label>
 	    <input type="text" id="website" name="website" placeholder="Website"/>
-	  </div>
-
-	  <div id="textarea">
-	    <label for="msg"><span lang:en>How may I serve you:</span></label><br/>
-	    <textarea id="msg" name="company info" placeholder="Please describe your company and its current goals..." required></textarea>
 	  </div>
 	  <div id="button">
 	    <input id="submit" type="submit" value="Send your request" />
