@@ -34,6 +34,7 @@ p {
   font-size: 1.25em;
   line-height: 1.5em;
   margin: 0 auto;
+/*   text-align: center; */
   width: 90%;
 }
 
@@ -51,7 +52,7 @@ p {
   border: 3px solid purple;
   border-radius: 5px;
   font-size: 1.5rem;
-  margin: 20vh auto;
+  margin: 10vh auto;
   padding: 10px;
   max-width: 250px;
   text-align: center;
