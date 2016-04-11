@@ -13,6 +13,7 @@ body {
   background: linear-gradient(to top, lightblue, white);
   min-height: 100vh;
   font-family: Roboto;
+  font-size: 16px;
   overflow-x: hidden;
 }
 
@@ -22,10 +23,6 @@ footer {
   left: 2px;
 }
 
-form label {
-  display: none;
-}
-
 img {
   height: 50px;
   position: relative;
@@ -33,30 +30,11 @@ img {
   left: 5px;
 }
 
-input {
-  font-size: 1.5rem;
-  height: 2rem;
-  margin-bottom: 10px;
-  width: 95%;
-}
-
-input, label, textarea {
-  font-family: inherit;
-}
-
-textarea {
-  font-size: 1.5rem;
-  height: 7rem;
-  margin-bottom: 10px;
-  width: 95%;
-}
-
-textarea::-webkit-input-placeholder {
-  color: purple;
-}
-
-::-webkit-input-placeholder {
-  padding-left: 5px;
+p {
+  font-size: 1.25em;
+  line-height: 1.5em;
+  margin: 0 auto;
+  width: 90%;
 }
 
 .slide {
@@ -69,16 +47,20 @@ textarea::-webkit-input-placeholder {
 }
 
 #button {
+  background: rgba(128, 0 , 128, 0.7);
+  border: 3px solid purple;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  margin: 20vh auto;
+  padding: 10px;
+  max-width: 250px;
   text-align: center;
+  text-shadow: 0 0 10px purple;
 }
 
-#form {
-  margin: 0 auto;
-  width: 80vw;
-}
-
-#mail::-webkit-input-placeholder {
-  color: purple;
+#clear {
+  clear: both;
+  margin-bottom: 5%;
 }
 
 #main {
@@ -105,17 +87,16 @@ textarea::-webkit-input-placeholder {
   background: #555;
 }
 
-#required {
-  color: red;
-  font-size: 2rem;
-  padding-left: 2px;
-}
-
-#salutation {
-  margin: 10px auto;
-  padding-top: 10px;
-  width: 80vw;
-  text-align: ;
+#self-pic {
+  background: url(images/me.jpg) top center no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  float: right;
+  height: 125px;
+  left: -50px;
+  position: relative;
+  top: -100px;
+  width: 100px;
 }
 
 #slidetoggle {
@@ -124,16 +105,6 @@ textarea::-webkit-input-placeholder {
 
 #slidetoggle:checked ~ nav {
   top: 0;
-}
-
-#submit {
-  background: rgba(128, 0 , 128, 0.5);
-  border: 3px solid purple;
-  border-radius: 5px;
-  font-size: 1.25rem;
-  height: auto;
-  padding: 10px;
-  max-width: 80%;
 }
 
 #wrap {
