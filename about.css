@@ -38,6 +38,11 @@ p {
   width: 90%;
 }
 
+.clear {
+  clear: both;
+  margin-bottom: 5%;
+}
+
 .slide {
   color: purple;
   float: right;
@@ -52,16 +57,13 @@ p {
   border: 3px solid purple;
   border-radius: 5px;
   font-size: 1.5rem;
-  margin: 10vh auto;
+  margin: 0vh auto;
   padding: 10px;
+  position: relative;
   max-width: 250px;
   text-align: center;
   text-shadow: 0 0 10px purple;
-}
-
-#clear {
-  clear: both;
-  margin-bottom: 5%;
+  top: -50px;
 }
 
 #main {
@@ -96,7 +98,7 @@ p {
   height: 125px;
   left: -50px;
   position: relative;
-  top: -100px;
+  top: -75px;
   width: 100px;
 }
 
