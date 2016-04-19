@@ -65,7 +65,7 @@ img {
 }
 
 #navslide {
-  background-color: black;
+  background: black;
   color: white;
   position: fixed;
   left:0;
@@ -95,7 +95,7 @@ img {
 
 /* Responsive layouts below */
 
-@media screen and (min-width: 740px) {
+@media screen and (min-width: 768px) {
   h1 {
     font-size: 3em;
   }
@@ -105,7 +105,7 @@ img {
   }
   
   #navslide {
-  background-color: unset;
+  background: unset;
   color: white;
   float: right;
   width: 360px;
