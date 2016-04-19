@@ -95,7 +95,7 @@ img {
 
 /* Responsive layouts below */
 
-@media screen and (min-width: 799px) {
+@media screen and (min-width: 800px) {
   h1 {
     font-size: 3em;
   }
