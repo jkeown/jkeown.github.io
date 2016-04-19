@@ -10,7 +10,7 @@ a {
 }
 
 body {
-  background: linear-gradient(to top, lightblue, white);
+  background: linear-gradient(to top, lightblue, #999);
   min-height: 100vh;
   font-family: Roboto;
   overflow-x: hidden;
@@ -144,6 +144,33 @@ textarea::-webkit-input-placeholder {
 
 /* Responsive layouts below */
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 740px) {
+  h1 {
+    font-size: 3em;
+  }
+  
+  .slide {
+    display: none;
+  }
+  
+  #navslide {
+  background-color: unset;
+  color: white;
+  float: right;
+  width: 360px;
+  position: relative;
+  top: 0;
+  }
+  
+  #navslide li {
+  display: inline-block;
+  list-style: none;
+  }
+  
+  #navslide ul li:hover {
+  background: unset;
+  border-bottom: 2px solid purple;
+  padding-bottom: 2px;
+}
   
 }
