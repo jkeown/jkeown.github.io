@@ -130,7 +130,8 @@ textarea::-webkit-input-placeholder {
   background: rgba(128, 0 , 128, 0.5);
   border: 3px solid purple;
   border-radius: 5px;
-  font-size: 1.25rem;
+  color: white;
+  font-size: 1.5rem;
   height: auto;
   padding: 10px;
   max-width: 80%;
