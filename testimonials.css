@@ -1,0 +1,183 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+blockquote {
+/*   background: lightblue; */
+  border: 2px dotted #920000;
+  border-radius: 5px;
+  font-size: 1.3em;
+  margin: 5px auto 0;
+  padding: 5px;
+  width: 80%;
+}
+
+body {
+  background: url("/home/ransak/Documents/cowboy movers/images/woodback9.jpg");
+  font-size: 16px; 
+  height: 100%;
+}
+
+footer {
+  padding-left: 5px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  display: none;
+  font-style: italic;
+  position: absolute;
+  left: calc(100% - 50%);
+  top: 2%;
+  width: 200px;
+}
+
+label img {
+  height: 50px;
+}
+
+p {
+  display: none;
+  font-size: 1.1em;
+  line-height: 1.2em;
+}
+
+span {
+  display: block;
+  font-style: oblique;
+  margin: 0 auto 10px;
+  text-align: right;
+  width: 80%;
+}
+
+.centered {
+  text-align: center;
+}
+
+#container {
+  background: white;
+  margin: 10px auto;
+  position: relative;
+  width: 95vw;
+}
+
+#logo {
+  height: 115px;
+}
+
+#main {
+  background-color: white;
+  padding: 5px;
+  position: relative;
+  left: 0;
+  padding-top: 5px;
+  text-align: center;
+  transition: left 0.5s ease;
+}
+
+#steve-bull {
+  right: 0;
+  height: 130px;
+  position: absolute;
+  top: 0;
+}
+
+#top {
+  border-bottom: 1px solid #920000;
+  padding: 5px;
+}
+
+/* menu toggle */
+nav {
+  background-color: black;
+  color: white;
+  font-size: 25px;
+  height: 100%;
+  padding: 0 5px;
+  width: 150px;
+  position: fixed;
+  left: -53%;
+  transition: left 0.5s ease;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  color: white;
+  border-bottom: 1px solid white;
+  list-style: none;
+  padding: 20px 0;
+  text-align: center;
+ }
+
+
+
+#slidetoggle {
+  display: none;  
+}
+
+#slidetoggle:checked ~ nav {
+  left: 0;
+}
+
+#slidetoggle:checked ~ #main {
+  left: 150px;
+}
+
+/* Responsive layout below */
+
+@media screen and (min-width: 450px) and (max-width: 770px){
+  blockquote {
+    font-size: 1.5em;
+    line-height: 1.25em;
+    text-align: center;
+  }
+  
+  h3 {
+    display: initial;
+    font-size: 1.2em;
+  }
+  
+}
+
+@media screen and (min-width: 771px) {
+  blockquote {
+    display: none;
+  }
+  
+    h3 {
+    display: initial;
+  }
+  
+  p {
+    display: initial;
+    font-size: 1.5em;
+    line-height: 1.25em;
+  }
+  
+  span {
+    text-align: center;
+  }
+  
+  #logo {
+  height: 260px ;
+  }
+  
+  #steve-bull {
+  height: 275px;
+  }
+  
+  
+}

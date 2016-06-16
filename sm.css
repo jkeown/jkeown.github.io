@@ -1,0 +1,143 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background: url("images/FAFNM9LB.jpg") no-repeat;
+  background-size: cover;
+  font-size: 16px; 
+  height: 100%;
+}
+
+footer {
+  padding-left: 5px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  display: none;
+  font-style: italic;
+  position: absolute;
+  left: calc(100% - 320px);
+  top: 50px;
+  width: 200px;
+}
+
+label img {
+  height: 50px;
+}
+
+p {
+  background-color: rgba(173, 216, 230, 0.3);
+  font-size: 1.25em;
+  line-height: 1.5em;
+  padding: 5px;
+}
+
+.centered {
+  text-align: center;
+}
+
+#container {
+  background: transparent;
+  margin: 10px auto;
+  position: relative;
+  width: 90%;
+}
+
+#logo {
+/*   display: block; */
+  height: 115px;
+/*   margin: 0 auto; */
+}
+
+#main {
+  background-color: rgba(173, 216, 230, 0.9);
+  border-radius: 0 0 10px 10px;
+  position: relative;
+  left: 0;
+  padding-top: 5px;
+  transition: left 0.5s ease;
+}
+
+#top {
+  background-color: rgba(173, 216, 230, 0.9);
+  border-bottom: 1px solid red;
+  border-radius: 10px 10px 0 0;
+  padding: 5px;
+}
+
+/* menu toggle */
+nav {
+  background-color: black;
+  color: white;
+  font-size: 25px;
+  height: 100%;
+  width: 150px;
+  position: fixed;
+  left: -150px;
+  transition: left 0.5s ease;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  color: white;
+  border-bottom: 1px solid white;
+  list-style: none;
+  padding: 20px 0;
+  text-align: center;
+ }
+
+.slide {
+/*   display: inline-block; */
+  float: right;
+  position: relative;
+}
+.slide img {
+  height: 75px;
+}
+
+#slidetoggle {
+  display: none;  
+}
+
+#slidetoggle:checked ~ nav {
+  left: 0;
+}
+
+#slidetoggle:checked ~ #main {
+  left: calc(150px - 5.5%);
+}
+
+/* Responsive layouts below */
+
+@media screen and (min-width: 700px) {
+  p {
+  font-size: 1.75em;
+  line-height: 1.5em;
+  padding: 0 20px;
+  }
+  
+  #container {
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+  }
+  
+  #main {
+    flex: 1;
+  }
+}

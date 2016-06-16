@@ -13,6 +13,7 @@ body {
   background: linear-gradient(to right, #222, #999);
   height: 100vh;
   font-family: Roboto;
+  font-size: 16px;
 }
 
 footer {
@@ -100,6 +101,10 @@ img {
     font-size: 3em;
   }
   
+  a:nth-child(1) {
+    color: purple;
+  }
+  
   .slide {
     display: none;
   }
@@ -108,13 +113,14 @@ img {
   background: unset;
   color: white;
   float: right;
-  width: 360px;
+  width: 400px;
   position: relative;
   top: 0;
   }
   
   #navslide li {
   display: inline-block;
+  font-size: 1.2em;
   list-style: none;
   }
   
