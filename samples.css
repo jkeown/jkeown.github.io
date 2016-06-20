@@ -24,12 +24,13 @@ footer {
 
 h1, h2 {
   color: white;
-  margin-top: 10vh;
+  margin-top: 20px;
   text-align: center;
   text-shadow: 0 0 5px black;
 }
 
 h3 {
+  margin-top: 10vh;
   text-align: center;
   text-decoration: underline;
   text-decoration-style: double;
@@ -40,6 +41,10 @@ img {
   position: relative;
   top: 5px;
   left: 5px;
+}
+
+.clear {
+  clear: both;
 }
 
 .slide {

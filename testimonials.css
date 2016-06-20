@@ -9,7 +9,7 @@ a {
 }
 
 blockquote {
-/*   background: lightblue; */
+  background-color: rgba(173, 216, 230, 0.9);
   border: 2px dotted #920000;
   border-radius: 5px;
   font-size: 1.3em;
@@ -19,7 +19,7 @@ blockquote {
 }
 
 body {
-  background: url("/home/ransak/Documents/cowboy movers/images/woodback9.jpg");
+  background: url("images/FAFNM9LB.jpg");
   font-size: 16px; 
   height: 100%;
 }
@@ -46,6 +46,7 @@ label img {
 }
 
 p {
+  background-color: rgba(173, 216, 230, 0.9);
   display: none;
   font-size: 1.1em;
   line-height: 1.2em;
@@ -64,10 +65,10 @@ span {
 }
 
 #container {
-  background: white;
+  background: transparent;
   margin: 10px auto;
   position: relative;
-  width: 95vw;
+  width: 90%;
 }
 
 #logo {
@@ -75,7 +76,7 @@ span {
 }
 
 #main {
-  background-color: white;
+  background-color: rgba(173, 216, 230, 0.9);
   padding: 5px;
   position: relative;
   left: 0;
@@ -92,7 +93,8 @@ span {
 }
 
 #top {
-  border-bottom: 1px solid #920000;
+  background-color: rgba(173, 216, 230, 0.9);
+  border-bottom: 1px solid red;
   padding: 5px;
 }
 
@@ -122,7 +124,11 @@ li {
   text-align: center;
  }
 
-
+.slide {
+/*   display: inline-block; */
+  float: right;
+  position: relative;
+}
 
 #slidetoggle {
   display: none;  
@@ -133,7 +139,7 @@ li {
 }
 
 #slidetoggle:checked ~ #main {
-  left: 150px;
+  left: calc(150px - 3%);
 }
 
 /* Responsive layout below */
