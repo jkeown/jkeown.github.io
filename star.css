@@ -266,7 +266,7 @@ body {
   20% {border-bottom-color: white;}
   50% {box-shadow: 5px 5px 5px orange;}
   90% {color: transparent;}
-  100% {margin-left: 90%; margin-top: 20%;}
+  100% {margin-left: 90%; margin-top: 40%;}
 }
 
 @keyframes blinking {
