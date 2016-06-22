@@ -7,123 +7,137 @@
 body {
   background: black;
   height: 100vh;
-  position: relative;
-  width: 100%;
   /*padding-bottom: 100%; /* play around with this for responsiveness */
 }
+
 
 #star-bl:nth-of-type(n) {
   animation-delay: 1s;
 }
 
 #star-bl:nth-of-type(2) {
-  left: 50%;
+  left: 85vw;
+  top: 54vh;
 }
 
 #star-bl:nth-of-type(3) {
-  left: -30%;
+  left: 83vw;
+  top: 17vh;
 }
 
 #star-bl:nth-of-type(4) {
-  left: 25%;
+  left: 27vw;
+  top: 63vh;
 }
 
 #star-bl:nth-of-type(5) {
-  left: -25%;
-  top: 12%;
+  left: 32vw;
+  top: 15vh;
 }
 
 #star-bl:nth-of-type(6) {
-  left: 45%;
-  top: 13%;
+  left: 94vw;
+  top: 69vh;
 }
 
 #star-bl:nth-of-type(7) {
-  left: -25%;
+  left: 42vw;
+  top: 7vh;
+}
+
+#star-bl:nth-of-type(8) {
+  left: 12vw;
+  top: 5vh;
 }
 
 #star-sm:nth-of-type(8) {
-  left: -12%;
+  left: 12vw;
+  top: 59vh;
 }
 
 #star-sm:nth-of-type(9) {
-  left: 40%;
+  left: 40vw;
+  top: 12vh;
 }
 
 #star-sm:nth-of-type(10) {
-  left: -1%;
+  left: 71vw;
+  top: 15vh;
 }
 
 #star-sm:nth-of-type(11) {
-  left: 17%;
+  left: 17vw;
+  top: 1vh;
 }
 
 #star-sm:nth-of-type(12) {
-  left: -17%;
+  left: 17vw;
+  top: 17vh;
 }
 
 #star-sm:nth-of-type(13) {
-  top: -30%;
+  left: 67vw;
+  top: 5vh;
 }
 
 #star-sm:nth-of-type(14) {
-  left: -16%;
-  top: -55%;
+  left: 66vw;
+  top: 44vh;
 }
 
 #star-sm:nth-of-type(15) {
-  left: 35%;
-  top: -42%;
+  left: 83vw;
+  top: 33vh;
 }
 
 #star-sm:nth-of-type(16) {
-  left: 28%;
-  top: -60%;
+  left: 92vw;
+  top: 53vh;
 }
 
 #star-sm:nth-of-type(17) {
-  left: 1%;
-  top: -72%;
+  left: 71vw;
+  top: 70vh;
 }
 
 #star-sm:nth-of-type(18) {
-  left: 35%;
-  top: -80%;
+  left: 63vw;
+  top: 44vh;
 }
 
 #star-sm:nth-of-type(19) {
-  left: 60%;
-  top: -60%;
+  left: 66vw;
+  top: 5vh;
 }
 
 #star-sm:nth-of-type(20) {
-  left: -6%;
-  top: -147%;
+  left: 6vw;
+  top: 15vh;
 }
 
 #star-sm:nth-of-type(21) {
-  left: 4%;
-  top: -130%;
+  left: 5vw;
+  top: 72vh;
 }
 
 #star-sm:nth-of-type(22) {
-  left: -4%;
-  top: -110%;
+  left: 44vw;
+  top: 20vh;
 }
 
 #star-sm:nth-of-type(23) {
-  left: -30%;
-  top: -105%;
+  left: 5vw;
+  top: 50vh;
 }
 
 #star-sm:nth-of-type(24) {
-  left: 30%;
-  top: -90%;
+  left: 35vw;
+  top: 35vh;
 }
 
 #star-sm:nth-of-type(25) {
-  left: 43%;
-  top: -95%;
+  left: 95vw;
+  top: 75vh;
 }
 
 #star-med{
@@ -173,7 +187,7 @@ body {
 }
 
 #star-bl {
-   margin: 50px 500px;
+   display: block;
    position: relative;
    width: 0px;
    height: 0px;
@@ -185,6 +199,7 @@ body {
    animation-timing-function: ease-out;
 }
 #star-bl:before {
+   display: block;
    border-bottom: 4px solid white;
    border-left: 1px solid transparent;
    border-right: 1px solid transparent;
@@ -199,6 +214,7 @@ body {
    animation-timing-function: ease-out;
 }
 #star-bl:after {
+   display: block;
    position: absolute;
    left: -5px;
    width: 0px;
@@ -213,7 +229,6 @@ body {
 }
 
 #star-sm{
-   margin: 50px 500px;
    position: relative;
    width: 0px;
    height: 0px;
