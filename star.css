@@ -6,7 +6,9 @@
 
 body {
   background: black;
-  height: 100vw;
+  height: 100vh;
+  position: relative;
+  width: 100%;
   /*padding-bottom: 100%; /* play around with this for responsiveness */
 }
 
@@ -125,7 +127,7 @@ body {
 }
 
 #star-med{
-   margin: 50px 500px;
+   margin: ;
    position: absolute;
 /*    display: block; */
    width: 0px;
