@@ -6,7 +6,8 @@
 
 body {
   background: black;
-  padding-bottom: 50%;
+  height: 100%;
+  /*padding-bottom: 100%; /* play around with this for responsiveness */
 }
 
 #star-bl:nth-of-type(n) {
@@ -14,114 +15,113 @@ body {
 }
 
 #star-bl:nth-of-type(2) {
-  left: 800px;
+  left: 50%;
 }
 
 #star-bl:nth-of-type(3) {
-  left: -400px;
+  left: -30%;
 }
 
 #star-bl:nth-of-type(4) {
-  left: 400px;
+  left: 25%;
 }
 
 #star-bl:nth-of-type(5) {
-  left: -350px;
-  top: 225px;
+  left: -25%;
+  top: 12%;
 }
 
 #star-bl:nth-of-type(6) {
-  left: 750px;
-  top: 250px;
+  left: 45%;
+  top: 13%;
 }
 
 #star-bl:nth-of-type(7) {
-  left: -450px;
+  left: -25%;
 }
 
 #star-sm:nth-of-type(8) {
-  left: -225px;
+  left: -12%;
 }
 
 #star-sm:nth-of-type(9) {
-  left: 500px;
+  left: 40%;
 }
 
 #star-sm:nth-of-type(10) {
-  left: -100px;
+  left: -1%;
 }
 
 #star-sm:nth-of-type(11) {
-  left: 175px;
+  left: 17%;
 }
 
 #star-sm:nth-of-type(12) {
-  left: -175px;
+  left: -17%;
 }
 
 #star-sm:nth-of-type(13) {
-  left: 0px;
-  top: -600px;
+  top: -30%;
 }
 
 #star-sm:nth-of-type(14) {
-  left: -160px;
-  top: -550px;
+  left: -16%;
+  top: -55%;
 }
 
 #star-sm:nth-of-type(15) {
-  left: 350px;
-  top: -425px;
+  left: 35%;
+  top: -42%;
 }
 
 #star-sm:nth-of-type(16) {
-  left: 280px;
-  top: -600px;
+  left: 28%;
+  top: -60%;
 }
 
 #star-sm:nth-of-type(17) {
-  left: 100px;
-  top: -725px;
+  left: 1%;
+  top: -72%;
 }
 
 #star-sm:nth-of-type(18) {
-  left: 350px;
-  top: -800px;
+  left: 35%;
+  top: -80%;
 }
 
 #star-sm:nth-of-type(19) {
-  left: 75px;
-  top: -600px;
+  left: 60%;
+  top: -60%;
 }
 
 #star-sm:nth-of-type(20) {
-  left: -60px;
-  top: -770px;
+  left: -6%;
+  top: -147%;
 }
 
 #star-sm:nth-of-type(21) {
-  left: 470px;
-  top: -810px;
+  left: 4%;
+  top: -130%;
 }
 
 #star-sm:nth-of-type(22) {
-  left: -400px;
-  top: -500px;
+  left: -4%;
+  top: -110%;
 }
 
 #star-sm:nth-of-type(23) {
-  left: -300px;
-  top: -705px;
+  left: -30%;
+  top: -105%;
 }
 
 #star-sm:nth-of-type(24) {
-  left: 375px;
-  top: -705px;
+  left: 30%;
+  top: -90%;
 }
 
 #star-sm:nth-of-type(25) {
-  left: 735px;
-  top: -650px;
+  left: 43%;
+  top: -95%;
 }
 
 #star-med{
