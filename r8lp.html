@@ -19,8 +19,17 @@
 		animation: changecolor 5s ease-in;
 		animation-delay: 1s;
 		animation-fill-mode: forwards;
-	}
+	}	
  	
+	svg {
+		height: 40vmax;
+		width: 40vmax;
+	}
+
+	.clear {
+		clear: both;
+	}
+
  	.path3741 {
  		animation: flickercolor 5s ease-in;
 		animation-delay: 5s;
@@ -28,11 +37,16 @@
  	}
  	
 	.pic1 {
-		float: left;
+		border: 2px solid pink;
+		position: absolute;
+		
 	}
 		
 	.pic2 {
-		float: right;
+		border: 2px solid pink;
+		position: absolute;
+		bottom: 0;
+		right: 0;
 	}
 		
 	@keyframes changecolor {
@@ -102,6 +116,8 @@
       />
 </svg>
 </div>
+
+<div class="clear"></div>
 
 <div class="pic2">
 	<svg
