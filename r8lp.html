@@ -1,8 +1,5 @@
 <!DOCTYPE html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>DJ REI8HT</title>
 <style>
 	* {
 		border: 0;
@@ -12,24 +9,15 @@
 	body {
 		background: black;
 		height: 100vh;
-		vmax: 100;
+		position: relative;
 	}
 		 
 	path {
 		animation: changecolor 5s ease-in;
 		animation-delay: 1s;
 		animation-fill-mode: forwards;
-	}	
- 	
-	svg {
-		height: 40vmax;
-		width: 40vmax;
 	}
-
-	.clear {
-		clear: both;
-	}
-
+	
  	.path3741 {
  		animation: flickercolor 5s ease-in;
 		animation-delay: 5s;
@@ -37,14 +25,32 @@
  	}
  	
 	.pic1 {
-		position: absolute;
-		
+		float: left;
 	}
 		
 	.pic2 {
 		position: absolute;
 		bottom: 0;
 		right: 0;
+	}
+	
+	.recordicon {
+		height: 100px;
+		width: 100px;
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left:0;
+		margin: auto;
+	}
+	
+	.recordicon img {
+		animation: visible 1s;
+		animation-delay: 7s;
+		animation-fill-mode: forwards;
+		height: 50%;
+		opacity: 0;
 	}
 		
 	@keyframes changecolor {
@@ -54,6 +60,11 @@
 	@keyframes flickercolor {
 		100% {fill: #020202;}
 	}
+	
+	@keyframes visible {
+		100% {opacity: 1;}
+	}
+	
 </style>
 </head>
 <body>
@@ -69,7 +80,7 @@
    id="svg3646"
    version="1.1"
    inkscape:version="0.91 r13725"
-   width="720"
+   width="620"
    height="526"
    viewBox="0 0 720 526"
    sodipodi:docname="r8landingpagetrace.svg">
@@ -114,9 +125,9 @@
       />
 </svg>
 </div>
-
-<div class="clear"></div>
-
+<div>
+	<img src="images/iam.svg"/>
+</div>
 <div class="pic2">
 	<svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -217,6 +228,9 @@
        id="path3537" />
   </g>
 </svg>
+</div>
+<div class="recordicon">
+	<img src="images/recordicon.svg"/>
 </div>
 </body>
 </html>
