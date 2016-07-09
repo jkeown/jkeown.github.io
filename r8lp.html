@@ -40,7 +40,7 @@
 	}
 	
 	#recordicon {
-		animation: visible 1s;
+		animation: visible 1s, spin 40s linear;
 		animation-delay: 7s;
 		animation-fill-mode: forwards;
 		height: 20%;
@@ -63,6 +63,11 @@
 	
 	@keyframes visible {
 		100% {opacity: 1;}
+	}
+
+	@keyframes spin {
+		0% {transform: rotate(0);}
+		100%{transform: rotate(3600deg);}
 	}
 
 	/* Responsive layouts below */
