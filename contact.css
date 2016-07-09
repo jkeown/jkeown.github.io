@@ -159,7 +159,7 @@ textarea::-webkit-input-placeholder {
   }
   
   #navslide {
-  background: unset;
+  background: transparent;
   color: white;
   float: right;
   width: 400px;
