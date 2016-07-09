@@ -40,7 +40,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="8.46875"
-     inkscape:cx="49.605498"
+     inkscape:cx="34.963432"
      inkscape:cy="31.68164"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -69,7 +69,8 @@
      id="layer1"
      transform="translate(0,-988.3622)">
     <g
-       id="g3021">
+       id="g3021"
+       transform="translate(3.1651314e-8,0.00192015)">
       <circle
          sodipodi:ry="24.105965"
          sodipodi:rx="24.105965"
@@ -187,13 +188,13 @@
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:URW Bookman L;-inkscape-font-specification:URW Bookman L"
-       x="14.056093"
+       x="14.556"
        y="1052.3622"
        id="text3034"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan3036"
-         x="14.056093"
+         x="14.556"
          y="1052.3622">ENTER</tspan></text>
   </g>
 </svg>
