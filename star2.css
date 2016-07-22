@@ -280,6 +280,7 @@ body {
 }
 
 #star-bl {
+   border-radius: 2px;
    position: relative;
    width: 2px;
    height: 2px;
@@ -289,6 +290,7 @@ body {
 
 #star-sm{
    background: white;
+   border-radius: 2px;
    position: relative;
    width: 2px;
    height: 2px;
