@@ -22,9 +22,8 @@
 		
 	}
 	
- 	.path3741 {
- 		animation: flickercolor 5s ease-in;
-		animation-delay: 5s;
+ 	#iam {
+ 		animation: flickercolor 0.10s 5 linear;
 		animation-fill-mode: forwards;
  	}
  	
@@ -41,7 +40,7 @@
 	
 	#recordicon {
 		animation: visible 1s, spin 40s linear;
-		animation-delay: 7s;
+		animation-delay: 4s;
 		animation-fill-mode: forwards;
 		height: 20%;
 		opacity: 0;
@@ -58,7 +57,8 @@
 	}
 	
 	@keyframes flickercolor {
-		100% {fill: #020202;}
+		0% {opacity: 0;}
+		100% {opacity: 1;}
 	}
 	
 	@keyframes visible {
@@ -150,7 +150,7 @@
 </svg>
 
 <div>
-	<img src="images/iam.svg"/>
+	<img id="iam" src="images/iam.svg"/>
 </div>
 
 <svg
