@@ -68,9 +68,7 @@ p {
 }
 
 #logo {
-/*   display: block; */
   height: 115px;
-/*   margin: 0 auto; */
 }
 
 #main {
@@ -142,7 +140,7 @@ li {
 
 /* Responsive layouts below */
 
-@media screen and (min-width: 770px) {
+@media screen and (min-width: 700px) {
   p {
   font-size: 1.75em;
   line-height: 1.5em;
@@ -159,29 +157,23 @@ li {
     min-height: 95vh;
   }
   
-  #logo {
-  height: 260px ;
-  }
-  
+    
   #main {
     flex: 1;
-    margin-top: -32px;
+/*     margin-top: -32px; */
   }
-  
-  
- 
   
   nav {
     background: transparent;
     color: white;
-    width: 80vw;
-    margin: 0 auto;
-    position: relative;
-    left: 30vw;
-    top: -50px;
+    float: right;
+    margin-right: 20px;
+    position: static;
+    
   }
+ 
   
-  li {
+  nav a li {
     border: none;
     display: inline-block;
     font-size: 1.1em;
@@ -192,4 +184,11 @@ li {
   li:hover {
     color: red;
   }
+@media screen and (min-width: 770px) {
+  #logo {
+    height: 260px;
+    left: calc(50% - 211px);
+    position: relative;
+  }
+}
 }

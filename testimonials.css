@@ -194,22 +194,13 @@ li {
       display: none;
   }
   
-  #logo {
-  height: 260px ;
-  }
-  
-  #main {
-    margin-top: -32px;
-  }
-  
   nav {
     background: transparent;
     color: white;
-    width: 80vw;
-    margin: 0 auto;
-    position: relative;
-    left: 30vw;
-    top: -50px;
+    float: right;
+    margin-right: 20px;
+    position: static;
+    
   }
   
   li {
@@ -223,6 +214,12 @@ li {
   li:hover {
     color: red;
   }
-  
+@media screen and (min-width: 770px) {
+  #logo {
+    height: 260px;
+    left: calc(50% - 211px);
+    position: relative;
+  }
+}  
   
 }
