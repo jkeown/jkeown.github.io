@@ -10,6 +10,10 @@ body {
   /*padding-bottom: 100%; /* play around with this for responsiveness */
 }
 
+a {
+    text-decoration: none;
+}
+
 
 #star-bl:nth-of-type(n) {
   animation-delay: 1s;

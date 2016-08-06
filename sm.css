@@ -99,6 +99,10 @@ nav {
   transition: left 0.5s ease;
 }
 
+nav2 {
+    display: none;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -163,9 +167,10 @@ li {
 /*     margin-top: -32px; */
   }
   
-  nav {
+  nav2 {
     background: transparent;
     color: white;
+    display: block;
     float: right;
     margin-right: 20px;
     position: static;
@@ -173,10 +178,10 @@ li {
   }
  
   
-  nav a li {
+  nav2 a li {
     border: none;
-    display: inline-block;
-    font-size: 1.1em;
+/*     display: inline-block; */
+    font-size: 1.75em;
     list-style: ;
     padding: 0 5px;
   }
