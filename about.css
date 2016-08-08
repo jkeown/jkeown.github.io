@@ -118,9 +118,20 @@ p {
 
 /* Responsive layouts below */
 
-@media screen and (min-width: 1000px) {
-  h1 {
-    font-size: 3em;
+@media screen and (min-width: 600px) {
+        #button {
+            top: -150px;
+        }
+        
+        p {
+        margin-top: -50px;
+        }
+}
+
+@media screen and (min-width: 760px) {
+  p {
+    font-size: 2em;
+    margin-top: 0;
   }
   
   a:nth-child(2) {
@@ -129,6 +140,10 @@ p {
   
   .slide {
     display: none;
+  }
+  
+  #button {
+    top: -50px;
   }
   
   #navslide {
@@ -150,6 +165,16 @@ p {
   background: unset;
   border-bottom: 2px solid purple;
   padding-bottom: 2px;
+  }
+  
+  #self-pic {
+    height: 250px;
+    width: 200px;
+  }
 }
   
+@media screen and (min-width: 800px) {
+    #button {
+        top: -150px;
+    }
 }
