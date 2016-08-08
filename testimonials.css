@@ -98,13 +98,6 @@ span {
   transition: left 0.5s ease;
 }
 
-#steve-bull {
-  right: 0;
-  height: 130px;
-  position: absolute;
-  top: 0;
-}
-
 #top {
   background-color: rgba(173, 216, 230, 0.9);
   border-bottom: 1px solid red;
@@ -116,7 +109,6 @@ nav {
   background-color: black;
   color: white;
   font-size: 25px;
-  height: auto;
   padding: 0 5px;
   width: 150px;
   position: fixed;
