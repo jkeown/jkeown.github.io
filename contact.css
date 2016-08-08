@@ -145,6 +145,12 @@ textarea::-webkit-input-placeholder {
 
 /* Responsive layouts below */
 
+@media screen and (min-width: 700px) {
+    p {
+        font-size: 1.25em;
+    }
+}
+
 @media screen and (min-width: 1000px) {
   h1 {
     font-size: 3em;
