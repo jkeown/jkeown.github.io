@@ -129,9 +129,10 @@ li {
   color: white;
   border-bottom: 1px solid white;
   list-style: none;
-  padding: 20px 0;
+  padding: 20px 5px;
   text-align: center;
  }
+
 
 .slide {
 /*   display: inline-block; */
@@ -153,6 +154,9 @@ li {
 /* Responsive layout below */
 
 @media screen and (max-height: 400px) {
+    li {
+        padding: 10px 5px;
+    
     #logo {
         height: 75px;
     }
