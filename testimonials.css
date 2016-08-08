@@ -124,6 +124,10 @@ nav {
   transition: left 0.5s ease;
 }
 
+nav2 {
+    display: none;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -171,7 +175,7 @@ li {
   
 }
 
-@media screen and (min-width: 771px) {
+@media screen and (min-width: 700px) {
   blockquote {
     display: none;
   }
@@ -194,19 +198,20 @@ li {
       display: none;
   }
   
-  nav {
+  nav2 {
     background: transparent;
     color: white;
+    display: block;
     float: right;
     margin-right: 20px;
     position: static;
     
   }
   
-  li {
+  nav2 a li {
     border: none;
-    display: inline-block;
-    font-size: 1.1em;
+/*     display: inline-block; */
+    font-size: 1.75em;
     list-style: ;
     padding: 0 5px;
   }
@@ -214,6 +219,13 @@ li {
   li:hover {
     color: red;
   }
+  
+  #logo {
+    height: 200px;
+    left: calc(50% - 211px);
+    position: relative;
+  }
+  
 @media screen and (min-width: 770px) {
   #logo {
     height: 260px;
