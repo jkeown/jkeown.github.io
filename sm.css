@@ -46,7 +46,7 @@ h3 {
 }
 
 label img {
-  height: 100px;
+  height: 50px;
 }
 
 p {
@@ -93,9 +93,9 @@ nav {
   color: white;
   font-size: 25px;
   height: 100%;
-  width: 150px;
+  width: 155px;
   position: fixed;
-  left: -150px;
+  left: -155px;
   transition: left 0.5s ease;
 }
 
@@ -139,7 +139,7 @@ li {
 }
 
 #slidetoggle:checked ~ #main {
-  left: calc(150px - 5.25%);
+  left: calc(155px - 5.25%);
 }
 
 /* Responsive layouts below */
