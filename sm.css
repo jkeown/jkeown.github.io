@@ -46,7 +46,7 @@ h3 {
 }
 
 label img {
-  height: 50px;
+  height: 100px;
 }
 
 p {
@@ -139,7 +139,7 @@ li {
 }
 
 #slidetoggle:checked ~ #main {
-  left: calc(150px - 5.5%);
+  left: calc(150px - 5.25%);
 }
 
 /* Responsive layouts below */
