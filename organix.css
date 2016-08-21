@@ -5,6 +5,10 @@
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
 /*     background: lightblue; */
     height: 100vh;
@@ -13,6 +17,19 @@ body {
 @keyframes slideshow {
     33.3333333333% {background-image: url(images/grape.png);}
     66.6666666667% {background-image: url(images/citrus.jpg);}
+}
+
+#button {
+  background: rgba(128, 0 , 128, 0.9);
+  border: 3px solid purple;
+  border-radius: 5px;
+  color: white;
+  font-size: 1.5rem;
+  margin: 20px auto;
+  padding: 10px;
+  max-width: 250px;
+  text-align: center;
+  text-shadow: 0 0 10px purple;
 }
 
 #logo {
