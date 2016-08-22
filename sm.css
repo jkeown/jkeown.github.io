@@ -16,16 +16,16 @@ body {
 }
 
 #button {
-  background: rgba(128, 0 , 128, 0.9);
-  border: 3px solid purple;
-  border-radius: 5px;
-  color: white;
-  font-size: 1.5rem;
-  margin: 20px auto;
-  padding: 10px;
-  max-width: 250px;
-  text-align: center;
-  text-shadow: 0 0 10px purple;
+	  background: rgba(128, 0 , 128, 0.9);
+	  border: 3px solid purple;
+	  border-radius: 5px;
+	  color: white;
+	  font-size: 1.5rem;
+	  margin: 20px auto;
+	  padding: 10px;
+	  max-width: 250px;
+	  text-align: center;
+	  text-shadow: 0 0 10px purple;
 }
 
 footer {
