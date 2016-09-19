@@ -103,6 +103,10 @@ header {
     background-size: 2500px;
 }
 
+.tile:hover {
+    box-shadow: 0 0 10px green;
+}
+
 .tile:nth-of-type(2) {
     background: url('images/hen.jpg') no-repeat;
     background-position: -10px -85px;
