@@ -10,10 +10,13 @@ a {
 }
 
 body {
-/*     background: lightblue; */
+    background: lightyellow;
     height: 100vh;
+    font-size: 16px;
+    font-family: 'Oxygen', sans-serif;
 }
 
+/*HEADER ANIMATION*/
 @keyframes slideshow {
     33.3333333333% {background-image: url(images/grape.png);}
     66.6666666667% {background-image: url(images/citrus.jpg);}
@@ -58,14 +61,154 @@ body {
 }*/
     
 
-#top {
-    animation: slideshow 15s ease 5;
-    backface-visibility: hidden;
+header {
+    animation: slideshow 15s ease 15;
+/*     backface-visibility: hidden; */
     background-image: url(images/strawberry.jpg);
     background-size: cover;
     position: relative;
-    transform: translate3d(0,0,0);
-    transform-style: preserve-3d;
+/*     transform: translate3d(0,0,0); */
+/*     transform-style: preserve-3d; */
     width: 100%;
 }
 
+/* HEADER ANIMATION END */
+
+.clear {
+    clear: both;
+}
+
+.listing {
+    background: black;
+    bottom: 0;
+    color: white;
+    opacity: 0.8;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+.tile {
+    border: 1px solid black;
+/*     float: left; */
+    height: 250px;
+    margin-top: 10px;
+    position: relative;
+    width: 250px;
+}
+
+.tile:first-child {
+    background: url('images/cows.jpg') no-repeat;
+    background-position: -1200px -1125px;
+    background-size: 2500px;
+}
+
+.tile:nth-of-type(2) {
+    background: url('images/hen.jpg') no-repeat;
+    background-position: -10px -85px;
+    background-size: 500px;
+}
+
+.tile:nth-of-type(3) {
+    background: url('images/crabs.jpg') no-repeat;
+    background-size: cover;
+}
+
+#herbivore .tile:first-child {
+    background: url('images/grain.jpg') no-repeat;
+    background-size: cover;
+}
+
+#herbivore .tile:nth-of-type(2) {
+    background: url('images/fruit.jpg') center no-repeat;
+    background-size: cover;
+}
+
+#herbivore .tile:nth-of-type(3) {
+    background: url('images/veggies.jpg') no-repeat;
+    background-position: -60px;
+    background-size: cover;
+}
+
+#intro, footer {
+    color: white;
+    background: black;
+    padding-bottom: 5px;
+    text-align: center;
+/*     width: 100%; */
+}
+
+#intro h3 {
+    font-style: italic;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+footer {
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+footer div {    /*maybe adjust this later*/
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+/********** RESPONSIVE STYLES BELOW **********/
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+    section {
+        margin: 0 auto;
+        width: 80%;
+    }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+    section {
+        margin: 0 auto;
+        width: 80%;
+    }
+}
+
+/********** Small devices only **********/
+@media (min-width: 769px) and (max-width: 991px) {
+
+}
+
+/********** Extra Small devices only **********/
+@media (min-width: 500px) and (max-width: 768px) {
+    .tile {
+        width: 49%;
+    }
+    
+    .tile:nth-of-type(3) {
+        width: 100%;
+    }
+    
+    #herbivore .tile:nth-of-type(3) {
+        background-position: 0px;
+        width: 100%;
+    }
+}
+
+/********** Super extra small devices only :-) (e.g., iPhone4) **********/
+@media (max-width: 499px) {
+    .tile {
+        width: 100%;
+    }
+    
+    #herbivore .tile:nth-of-type(3) {
+        background-position: 0px;
+    }
+    
+    #phone {
+        display: none;
+    }
+}
