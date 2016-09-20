@@ -19,7 +19,7 @@ body {
 /*HEADER ANIMATION*/
 @keyframes slideshow {
     33.3333333333% {background-image: url(images/grape-sm.png);}
-    66.6666666667% {background-image: url(images/citrus-sm.jpg);}
+    66.6666666667% {background-image: url(images/greenbean.jpg);}
 }
 
 #bg2 {
@@ -28,8 +28,8 @@ body {
 }
 
 #bg3 {
-    background-image: url(images/citrus-sm.jpg);
-    background-size: cover;
+    background-image: url(images/greenbean.jpg);
+/*     background-size: cover; */
 }
 
 #button {
@@ -98,7 +98,7 @@ header {
 
 .tile:first-child {
     background: url('images/cows-sm.jpg') no-repeat;
-    background-position: -50px;
+/*     background-position: -50px; */
     background-size: cover;
 }
 
@@ -117,12 +117,12 @@ header {
 }
 
 #herbivore .tile:nth-of-type(2) {
-    background: url('images/fruit-sm.jpg') center no-repeat;
+    background: url('images/citrus-sm.jpg') center no-repeat;
 }
 
 #herbivore .tile:nth-of-type(3) {
-    background: url('images/veggies-sm.jpg') no-repeat;
-    background-position: -60px;
+    background: url('images/veggies-sm.jpg') center no-repeat;
+/*     background-position: -60px; */
 }
 
 #intro, footer {
