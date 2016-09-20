@@ -18,17 +18,17 @@ body {
 
 /*HEADER ANIMATION*/
 @keyframes slideshow {
-    33.3333333333% {background-image: url(images/grape.png);}
-    66.6666666667% {background-image: url(images/citrus.jpg);}
+    33.3333333333% {background-image: url(images/grape-sm.png);}
+    66.6666666667% {background-image: url(images/citrus-sm.jpg);}
 }
 
 #bg2 {
-    background-image: url(images/grape.png);
+    background-image: url(images/grape-sm.png);
     background-size: cover;
 }
 
 #bg3 {
-    background-image: url(images/citrus.jpg);
+    background-image: url(images/citrus-sm.jpg);
     background-size: cover;
 }
 
@@ -63,13 +63,9 @@ body {
 
 header {
     animation: slideshow 15s ease 15;
-/*     backface-visibility: hidden; */
-    background-image: url(images/strawberry.jpg);
+    background-image: url(images/strawberry-sm.jpg);
     background-size: cover;
     position: relative;
-/*     transform: translate3d(0,0,0); */
-/*     transform-style: preserve-3d; */
-    width: 100%;
 }
 
 /* HEADER ANIMATION END */
@@ -90,48 +86,43 @@ header {
 
 .tile {
     border: 1px solid black;
-/*     float: left; */
     height: 250px;
     margin-top: 10px;
     position: relative;
     width: 250px;
 }
 
-.tile:first-child {
-    background: url('images/cows.jpg') no-repeat;
-    background-position: -1200px -1125px;
-    background-size: 2500px;
-}
-
 .tile:hover {
     box-shadow: 0 0 10px green;
 }
 
+.tile:first-child {
+    background: url('images/cows-sm.jpg') no-repeat;
+    background-position: -50px;
+    background-size: cover;
+}
+
 .tile:nth-of-type(2) {
-    background: url('images/hen.jpg') no-repeat;
-    background-position: -10px -85px;
-    background-size: 500px;
+    background: url('images/hen-sm.jpg') no-repeat;
+    background-size: cover;
 }
 
 .tile:nth-of-type(3) {
-    background: url('images/crabs.jpg') no-repeat;
+    background: url('images/crabs-sm.jpg') no-repeat;
     background-size: cover;
 }
 
 #herbivore .tile:first-child {
-    background: url('images/grain.jpg') no-repeat;
-    background-size: cover;
+    background: url('images/grain-sm.jpg') no-repeat;
 }
 
 #herbivore .tile:nth-of-type(2) {
-    background: url('images/fruit.jpg') center no-repeat;
-    background-size: cover;
+    background: url('images/fruit-sm.jpg') center no-repeat;
 }
 
 #herbivore .tile:nth-of-type(3) {
-    background: url('images/veggies.jpg') no-repeat;
+    background: url('images/veggies-sm.jpg') no-repeat;
     background-position: -60px;
-    background-size: cover;
 }
 
 #intro, footer {
@@ -193,11 +184,13 @@ footer div {    /*maybe adjust this later*/
     }
     
     .tile:nth-of-type(3) {
+        background-size: cover;
         width: 100%;
     }
     
     #herbivore .tile:nth-of-type(3) {
         background-position: 0px;
+        background-size: cover;
         width: 100%;
     }
 }
