@@ -92,7 +92,7 @@ span {
 }
 
 .listing {
-    background: black;
+    background: green;
     bottom: 0;
     color: white;
     font-size: 1.3em;
@@ -144,7 +144,7 @@ span {
 
 #intro, footer {
     color: white;
-    background: black;
+    background: green;
     padding-bottom: 5px;
     text-align: center;
 /*     width: 100%; */
