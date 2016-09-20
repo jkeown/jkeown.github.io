@@ -70,6 +70,19 @@ header {
 
 /* HEADER ANIMATION END */
 
+section img {
+    padding: 10px 0;
+    width: 232px;
+}
+
+section:last-child {
+    align-items: center;
+    border-top: 1px solid black;
+    flex-direction: column;
+    line-height: 1.5;
+    margin-top: 20px;
+}
+    
 span {
     text-transform: uppercase;
 }
