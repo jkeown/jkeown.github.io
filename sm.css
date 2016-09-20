@@ -9,8 +9,7 @@ a {
 }
 
 body {
-  background: url("images/FAFNM9LB.jpg") no-repeat;
-  background-size: cover;
+  background-color: rgba(173, 216, 230, 0.9);
   font-size: 16px; 
   height: 100%;
 }
@@ -68,11 +67,13 @@ p {
 }
 
 #logo {
-  height: 115px;
+  height: 250px;
+  left: 10%;
+  position: relative;
 }
 
 #main {
-  background-color: rgba(173, 216, 230, 0.9);
+  
   border-radius: 0 0 10px 10px;
   position: relative;
   left: 0;
@@ -81,9 +82,12 @@ p {
 }
 
 #top {
-  background-color: rgba(173, 216, 230, 0.9);
+  background: url("images/oceanroad-md.jpg") center no-repeat;
+  background-size: cover;
+/*   background-color: rgba(173, 216, 230, 0.9); */
   border-bottom: 1px solid red;
   border-radius: 10px 10px 0 0;
+  height: 300px;
   padding: 5px;
 }
 
@@ -200,16 +204,17 @@ li {
     color: red;
   }
   
-  #logo {
+  /*#logo {
     height: 200px;
     left: calc(50% - 211px);
     position: relative;
-  }
+  }*/
   
 @media screen and (min-width: 770px) {
-  #logo {
+ /* #logo {
     height: 260px;
-    left: calc(50% - 211px);
+/*     left: calc(50% - 211px); */
+    left: 10px;
     position: relative;
-  }
+  }*/
 }
