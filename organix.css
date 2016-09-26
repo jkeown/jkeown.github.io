@@ -10,7 +10,7 @@ a {
 }
 
 body {
-    background: lightyellow;
+    background: #ffffe0;
     height: 100vh;
     font-size: 16px;
     font-family: 'Oxygen', sans-serif;
@@ -92,7 +92,7 @@ span {
 }
 
 .listing {
-    background: green;
+    background: #008000;
     bottom: 0;
     color: white;
     font-size: 1.3em;
@@ -144,7 +144,7 @@ span {
 
 #intro, footer {
     color: white;
-    background: green;
+    background: #008000;
     padding-bottom: 5px;
     text-align: center;
 /*     width: 100%; */

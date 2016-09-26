@@ -32,16 +32,10 @@ footer {
 }
 
 h1 {
-  text-align: center;
-}
-
-h3 {
-  display: none;
-  font-style: italic;
+  font-style: italic;  
   position: absolute;
-  left: calc(100% - 320px);
-  top: 50px;
-  width: 200px;
+  bottom: 0;
+  left: 35%;
 }
 
 label img {
@@ -55,9 +49,14 @@ p {
   padding: 5px;
 }
 
+
 .centered {
   text-align: center;
 }
+
+.clear {
+    clear: both;
+    }
 
 #container {
   background: transparent;
@@ -67,9 +66,9 @@ p {
 }
 
 #logo {
-  height: 250px;
   left: 10%;
   position: relative;
+  width: 35%;
 }
 
 #main {
@@ -85,10 +84,20 @@ p {
   background: url("images/oceanroad-md.jpg") center no-repeat;
   background-size: cover;
 /*   background-color: rgba(173, 216, 230, 0.9); */
-  border-bottom: 1px solid red;
+/*   border-bottom: 1px solid #ff0000; */
   border-radius: 10px 10px 0 0;
+  box-shadow: 0 8px 5px -5px #ff0000;
   height: 300px;
   padding: 5px;
+  position: fixed;
+  width: 90%;
+  z-index: 1;
+}
+
+#pseudo-top {
+    height: 300px;
+  padding: 5px;
+  width: 90%;
 }
 
 /* menu toggle */
