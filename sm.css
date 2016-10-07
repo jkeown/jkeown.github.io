@@ -11,7 +11,7 @@ a {
 
 body {
   background-color: rgba(173, 216, 230, 0.9);
-  font-size: 16px; 
+  font-size: 120%; 
   height: 100%;
 }
 
@@ -30,7 +30,7 @@ body {
 
 blockquote {
   background-color: rgba(173, 216, 230, 0.9);
-  border: 2px dotted #920000;
+  border: 2px dotted #ff0000;
   border-radius: 5px;
   font-size: 1.3em;
   margin: 5px auto 0;
@@ -45,9 +45,8 @@ footer {
 #top h1 {
   color: white;
   font-style: italic;  
-  position: absolute;
-  bottom: 20px;
-  left: 35%;
+  margin-top: 10%;
+  text-shadow: 0 0 5px black;
 }
 
 label img {
@@ -79,16 +78,16 @@ span {
 
 #container {
   background: transparent;
-  box-shadow: 0 0 5px red;
+  box-shadow: 0 0 5px #ff0000;
   margin: 0 auto;
   position: relative;
   width: 90%;
 }
 
 #logo {
-  left: 10%;
+  float: left;
   position: relative;
-  width: 35%;
+  max-width: 45%;
 }
 
 #main {
@@ -111,14 +110,17 @@ span {
   height: 300px;
   padding: 5px;
   position: fixed;
-  width: 90%;
+  min-width: 90%;
+  max-width: 90%;
+  text-align: center;
   z-index: 1;
 }
 
 #pseudo-top {
     height: 300px;
   padding: 5px;
-  width: 90%;
+   min-width: 90%;
+  max-width: 90%;
 }
 
 #jumpy:before { 
@@ -192,7 +194,7 @@ li {
     }
     
     #logo {
-        height: 75px;
+/*         height: 75px; */
     }
 }
 
@@ -201,6 +203,16 @@ li {
     font-size: 1.5em;
     line-height: 1.25em;
     text-align: center;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  #logo {
+    width: 45%;
+  }
+  
+  #top h1 {
+  margin-top: 5%;
   }
 }
 
@@ -227,6 +239,10 @@ li {
   #main {
     flex: 1;
 /*     margin-top: -32px; */
+  }
+  
+   #top h1 {
+  margin-top: 0;
   }
   
   nav2 {
@@ -262,11 +278,12 @@ li {
     position: relative;
   }*/
   
-@media screen and (min-width: 770px) {
- /* #logo {
-    height: 260px;
-/*     left: calc(50% - 211px); */
-    left: 10px;
-    position: relative;
-  }*/
+@media screen and (min-width: 990px) {
+  #top, #pseudo-top {
+  height: 500px;
+  }
+  
+  #jumpy:before {
+  height: 520px;
+  }
 }
