@@ -14,30 +14,21 @@
 	<img id="logo" src="images/smlogo.png"/>
       </picture>
       <label for="slidetoggle" class="slide"><img src="images/truckicon.png"/></label>
-      <nav2>
-        <ul>
-            <a href="sm.html"><li>About Us</li></a>
-            <a href="#jumpy"><li>Testimonials</li></a>
-            <a href="contact.html"><li>Rates</li></a>
-            <a href="contact.html"><li>Contact</li></a>
-        </ul>
-      </nav2>
       <div class="clear"></div>
         <h1>Moving you to your next adventure!</h1>
     </div>
     <div id="pseudo-top"></div>
     <input type="checkbox" id="slidetoggle" name="" value="">
-   <!-- <nav>
+    <nav onclick="uncheck()">
       <ul>
-	<a href="sm.html"><li>About Us</li></a>
-	<a href="#jumpy"><li>Testimonials</li></a>
-	<a href="contact.html"><li>Rates</li></a>
-	<a href="contact.html"><li>Contact</li></a>
+        <a href="sm.html"><li>About Us</li></a>
+        <a href="#jumpy"><li>Testimonials</li></a><
+        <a href="contact.html"><li>Rates</li></a>
+        <a href="contact.html"><li>Contact</li></a>
       </ul>
-    </nav>-->
-
+    </nav>
+    <div class="clear"></div>
     <div id="main">
-<!--       <h1 class="centered">Super Movers to the rescue!</h1> -->
         <section>
             <p>Doesn't the task of moving sometimes seem like an impossible feat?  Well, have no fear, Super Movers is here!  We know your life is busy
             enough.  Go ahead and make your life easier! Allow our super movers to handle this burden for you.  We have a super, full-service team waiting 
@@ -109,6 +100,10 @@
   <footer>&copy Super Movers. All Rights Reserved</footer>
   <a href="samples.html"><div id="button">Back to Samples Page</div></a>
 
-
+<script>
+  var uncheck = function(){
+  document.getElementById('slidetoggle').checked= false;
+  }
+</script>
 </body>
 </html>
