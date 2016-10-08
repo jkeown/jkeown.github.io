@@ -42,13 +42,6 @@ footer {
   padding-left: 5px;
 }
 
-#top h1 {
-  color: white;
-  font-size: 1.2em;
-  font-style: italic;  
-  margin-top: 10%;
-  text-shadow: 0 0 5px black;
-}
 
 label img {
   height: 50px;
@@ -86,9 +79,9 @@ span {
 }
 
 #logo {
-  /*left: 2%;
-  position: absolute;*/
-  max-width: 45%;
+  left: -15%;
+  position: relative;
+  max-width: 40vw;
 }
 
 #main {
@@ -102,35 +95,39 @@ span {
 }
 
 #top {
-  background: url("images/oceanroad-md.jpg") center no-repeat;
+  background: url("images/oceanroad-md.jpg") top no-repeat;
   background-size: cover;
-/*   background-color: rgba(173, 216, 230, 0.9); */
-/*   border-bottom: 1px solid #ff0000; */
-/*   border-radius: 10px 10px 0 0; */
-/*   box-shadow: 0 8px 5px -5px #ff0000; */
-  height: 30vh;
+  color: white;
+  font-size: 0.7em;
+  height: 50vw;
   padding: 5px;
   position: fixed;
   min-width: 90%;
   max-width: 90%;
   text-align: center;
+  text-shadow: 0 0 1em black;
   z-index: 1;
 }
 
+#top h1 {
+  position: relative;
+  bottom: -5%;
+}
+
 #pseudo-top {
-    height: 30vh;
+    height: 50vw;
   padding: 5px;
    min-width: 90%;
   max-width: 90%;
 }
 
-#jumpy:before { 
+/*#jumpy:before { 
   display: block; 
   content: " "; 
   margin-top: -320px; 
   height: 320px; 
   visibility: hidden; 
-}
+}*/
 
 ///////////////////////////////////////////////////* menu toggle */
 nav {
@@ -172,7 +169,7 @@ li {
 }
 
 .slide img {
-  height: 75px;
+  height: 15vw;
 }
 
 #slidetoggle {
@@ -193,10 +190,7 @@ li {
     li {
         padding: 10px 5px;
     }
-    
-    #logo {
-/*         height: 75px; */
-    }
+
 }
 
 @media screen and (min-width: 450px) and (max-width: 770px){
@@ -206,18 +200,13 @@ li {
     text-align: center;
   }
   
-  #top h1 {
-  margin-top: 5%;
-  }
-  
 }
 
-/*@media screen and (min-width: 600px) {
-  #logo {
-    width: 45%;
+@media screen and (min-width: 500px) {
+  #top h1 {
+    bottom: -15%;
+    font-size: 2.75em;
   }
-  
-}*/
 
 @media screen and (min-width: 700px) {
   
@@ -232,21 +221,19 @@ li {
       display: none;
   }
   
-  #container {
+ /* #container {
     display: flex;
     flex-direction: column;
     min-height: 95vh;
-  }
+  }*/
   
-    
+ /*   
   #main {
     flex: 1;
 /*     margin-top: -32px; */
-  }
+  }*/
   
-   #top h1 {
-  margin-top: 0;
-  }
+  
   
   nav2 {
     background: transparent;
@@ -261,7 +248,6 @@ li {
   
   nav2 a li {
     border: none;
-/*     display: inline-block; */
     font-size: 1.75em;
     list-style: ;
     padding: 0 5px;
@@ -275,18 +261,12 @@ li {
     text-align: center;
   }
   
-  /*#logo {
-    height: 200px;
-    left: calc(50% - 211px);
-    position: relative;
-  }*/
-  
-@media screen and (min-width: 990px) {
+@/*media screen and (min-width: 990px) {
   #top, #pseudo-top {
   height: 500px;
   }
   
   #jumpy:before {
   height: 520px;
-  }
+  }*/
 }
