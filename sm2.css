@@ -72,16 +72,17 @@ span {
 
 #container {
   background: transparent;
-  box-shadow: 0 0 5px #ff0000;
+  /*box-shadow: 0 0 5px #ff0000;
   margin: 0 auto;
-  position: relative;
-  width: 90%;
+  position: relative;*/
+/*   width: 90%; */
 }
 
 #logo {
-  left: -15%;
+  float: left;
+/*   left: -15%; */
   position: relative;
-  max-width: 40vw;
+  max-width: 20vh;
 }
 
 #main {
@@ -95,17 +96,18 @@ span {
 }
 
 #top {
-  background: url("images/oceanroad-md.jpg") top no-repeat;
+  background: url("images/road.jpg") center no-repeat;
   background-size: cover;
   color: white;
   font-size: 0.7em;
   height: 50vw;
-  padding: 5px;
+/*   padding: 5px; */
   position: fixed;
-  min-width: 90%;
-  max-width: 90%;
+  /*min-width: 90%;
+  max-width: 90%;*/
   text-align: center;
   text-shadow: 0 0 1em black;
+  width: 100%;
   z-index: 1;
 }
 
@@ -116,9 +118,9 @@ span {
 
 #pseudo-top {
     height: 50vw;
-  padding: 5px;
-   min-width: 90%;
-  max-width: 90%;
+/*   padding: 5px; */
+  /* min-width: 90%;
+  max-width: 90%;*/
 }
 
 /*#jumpy:before { 
@@ -169,7 +171,7 @@ li {
 }
 
 .slide img {
-  height: 15vw;
+  height: 10vh;
 }
 
 #slidetoggle {
@@ -193,12 +195,16 @@ li {
 
 }
 
-@media screen and (min-width: 450px) and (max-width: 770px){
+@media screen and (min-width: 500px) and (max-width: 770px){
   blockquote {
     font-size: 1.5em;
     line-height: 1.25em;
     text-align: center;
   }
+  
+  #top, #pseudo-top {
+    height: 20vw;
+}
   
 }
 
@@ -207,6 +213,8 @@ li {
     bottom: -15%;
     font-size: 2.75em;
   }
+  
+}
 
 @media screen and (min-width: 700px) {
   
@@ -231,10 +239,7 @@ li {
   #main {
     flex: 1;
 /*     margin-top: -32px; */
-  }*/
-  
-  
-  
+    
   nav2 {
     background: transparent;
     color: white;
@@ -260,13 +265,4 @@ li {
   span {
     text-align: center;
   }
-  
-@/*media screen and (min-width: 990px) {
-  #top, #pseudo-top {
-  height: 500px;
-  }
-  
-  #jumpy:before {
-  height: 520px;
-  }*/
 }
