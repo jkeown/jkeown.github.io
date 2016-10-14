@@ -1,6 +1,5 @@
 * {
  border: 0;
- box-sizing: border-box;
  margin: 0;
  padding: 0;
 }
@@ -11,10 +10,9 @@ a {
 }
 
 body {
-  background: linear-gradient(to right, #222, #999);
+  background: linear-gradient(to top, #333, #999);
   height: 100%;
   font-family: Roboto;
-  font-size: 16px;
 }
 
 footer {
@@ -23,21 +21,11 @@ footer {
   left: 2px;
 }
 
-h1, h2 {
+h1, h3 {
   color: white;
-  margin-top: 5vh;
+  margin-top: 10vh;
+  text-align: center;
   text-shadow: 0 0 5px black;
-}
-
-img {
-  height: 50px;
-  position: relative;
-  top: 5px;
-  left: 5px;
-}
-
-.clear {
-  clear: both;
 }
 
 .slide {
@@ -54,11 +42,18 @@ img {
   border: 3px solid purple;
   border-radius: 5px;
   font-size: 1.5rem;
-  margin: 5vh auto;
+  margin: 20vh auto;
   padding: 10px;
-  max-width: 250px;
+  max-width: 225px;
   text-align: center;
   text-shadow: 0 0 10px purple;
+}
+
+#logo {
+  height: 50px;
+  position: relative;
+  top: 5px;
+  left: 5px;
 }
 
 #main { 
@@ -67,11 +62,10 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
-  text-align: center;
 }
 
 #navslide {
-  background: black;
+  background-color: black;
   color: white;
   position: fixed;
   left:0;
@@ -101,13 +95,9 @@ img {
 
 /* Responsive layouts below */
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 740px) {
   h1 {
     font-size: 3em;
-  }
-  
-  a:nth-child(1) {
-    color: purple;
   }
   
   .slide {
@@ -115,17 +105,16 @@ img {
   }
   
   #navslide {
-  background: transparent;
+  background-color: unset;
   color: white;
   float: right;
-  width: 400px;
+  width: 360px;
   position: relative;
   top: 0;
   }
   
   #navslide li {
   display: inline-block;
-  font-size: 1.2em;
   list-style: none;
   }
   
