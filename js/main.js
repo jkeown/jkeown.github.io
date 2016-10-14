@@ -12,7 +12,7 @@ window.onload = function() {
   game.scale = 1;
   game.onload = function() {
     // 6 - Once Game finishes loading
-    console.log("Hi, Ocean!");
+//    console.log("Hi, Ocean!");
 //     // 1- Variables
 //     var scene, label, bg;
 //     // 2 - New Scene
