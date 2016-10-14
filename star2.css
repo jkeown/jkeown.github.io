@@ -12,7 +12,7 @@ body {
   background: black;
   height: 100vh;
   /*padding-bottom: 100%; /* play around with this for responsiveness */
-/*   overflow: hidden; */
+  overflow: hidden;
 }
 
 #button {
