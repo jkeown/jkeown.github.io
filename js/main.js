@@ -31,7 +31,7 @@ window.onload = function() {
   }
   // 7 - Start
   game.start();
-  window.scroll(0, 0);
+  window.scrollTo(0, 0);
   
   // SceneGame
   var SceneGame = Class.create(Scene, {
