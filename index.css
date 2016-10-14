@@ -28,6 +28,10 @@ h1, h3 {
   text-shadow: 0 0 5px black;
 }
 
+h3 {
+  margin-top: 5vh;
+}
+
 .slide {
   color: purple;
   float: right;
