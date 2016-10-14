@@ -24,7 +24,7 @@ footer {
 
 h1, h2 {
   color: white;
-  margin-top: 10vh;
+  margin-top: 5vh;
   text-align: center;
   text-shadow: 0 0 5px black;
 }
@@ -50,7 +50,7 @@ img {
   border: 3px solid purple;
   border-radius: 5px;
   font-size: 1.5rem;
-  margin: 20vh auto;
+  margin: 5vh auto;
   padding: 10px;
   max-width: 250px;
   text-align: center;
