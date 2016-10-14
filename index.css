@@ -26,7 +26,6 @@ footer {
 h1, h2 {
   color: white;
   margin-top: 5vh;
-  text-align: center;
   text-shadow: 0 0 5px black;
 }
 
@@ -68,6 +67,7 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  text-align: center;
 }
 
 #navslide {
