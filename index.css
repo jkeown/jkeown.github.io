@@ -36,6 +36,10 @@ img {
   left: 5px;
 }
 
+.clear {
+  clear: both;
+}
+
 .slide {
   color: purple;
   float: right;
