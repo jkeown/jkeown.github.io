@@ -23,13 +23,9 @@ footer {
 
 h1, h3 {
   color: white;
-  margin-top: 10vh;
+  margin-top: 5vh;
   text-align: center;
   text-shadow: 0 0 5px black;
-}
-
-h3 {
-  margin-top: 5vh;
 }
 
 .slide {
