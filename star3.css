@@ -16,7 +16,7 @@ body {
 }
 
 #button {
-  animation: backbutton 1s 8s forwards;
+  animation: backbutton 1s 5s forwards;
   background: rgba(128, 0 , 128, 0.9);
   border: 3px solid purple;
   border-radius: 5px;
@@ -311,7 +311,7 @@ div:nth-of-type(52) {
    transform:    rotate(35deg) scale(.1);
    animation: moving 5s;
    animation-timing-function: ease-out;
-   animation-delay: 3s;
+   animation-delay: 2s;
 }
 #star-med:before {
    border-bottom: 40px solid transparent;
@@ -327,7 +327,7 @@ div:nth-of-type(52) {
    transform: rotate(-35deg);
    animation: moving 5s;
    animation-timing-function: ease-out;
-   animation-delay: 3s;
+   animation-delay: 2s;
 }
 #star-med:after {
    position: absolute;
@@ -342,7 +342,7 @@ div:nth-of-type(52) {
    content: '';
    animation: moving 5s;
    animation-timing-function: ease-out;
-   animation-delay: 3s;
+   animation-delay: 2s;
 }
 
 .star-bl {
