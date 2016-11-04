@@ -5,30 +5,117 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="images/jkicon.png"/>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="indexstyle.css">
   </head>
 <body>
-  <div id="wrap">
-    
+  <header>
+    <img id="logo" src="images/jklogo.png"/>
       <input type="checkbox" id="slidetoggle" name="" value="">
       <label for="slidetoggle" class="slide">≡</label>
-      <nav id="navslide">
+      <nav id="navslide" class="">
         <ul>
-          <a href="index.html"><li>Home</li></a>
-          <a href="about.html"><li>About</li></a>
-          <a href="samples.html"><li>Samples</li></a>
-          <a href="contact.html"><li>Contact</li></a>
+          <a href="#home" onclick="uncheck()"><li>Home</li></a>
+          <a href="#about" onclick="uncheck()"><li>About</li></a>
+          <a href="#samples" onclick="uncheck()"><li>Portfolio</li></a>
+          <a href="#contact" onclick="uncheck()"><li>Contact</li></a>
         </ul>
       </nav>
-    <div id="main" onclick="uncheck()">  
-      <img id="logo" src="images/jklogo.png"/>
-      <h1>Website development services</h1>
-      <h3>Whether you need a makeover or are starting from scratch...</h3>
-      <h3>make your digital presence a reality!</h3>
-      <a href="contact.html"><div id="button">Let's make it happen</div></a>
-      <footer>&copy 2016 jKeown</footer>
-    </div>  
-  </div>
+  </header>
+      
+      
+      <div class="container-fluid" onclick="uncheck()">
+  <section id="home">
+    <div class="row">
+      <div class="content col-xs-12">
+        <h1>Still in need of a website?</h1>
+        <h2>Whether you are starting from scratch or need a makeover...</h2>
+        <h2>Let me make your digital presence a reality!</h2>
+        <div class="button">
+        <a href="#contact"><button>Let's make it happen</button></a>
+        </div>
+      </div><!--content-->
+     <div><!--row-->
+  </section><!--#home-->
+
+  <section id="about">
+    <div class="row">
+      <div class="content col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 text-left">
+      <div><!--to even top of h2 and image-->
+        <img src="images/me.jpg">
+        <h2>Aloha! I am a freelance web developer specializing in helping small businesses. Being a small operation myself, I understand working with a smaller budget, and that the small business still deserves quality work. I can quickly get your website up and attracting new opportunities for your organization.</h2> 
+        <h3>Kindest regards, <br/>Jared Keown</h3>
+      </div>
+      <div class="clearfix"></div>
+        <div class="button">
+          <a href="#contact"><button>Let's create together</button></a>
+      </div><!--centered-->
+      </div><!--content-->
+    </div><!--row-->
+  </section><!--about-->
+
+  <section id="samples">
+    <div class="row content">
+      <h2 class="text-center">Portfolio</h2>
+      <div class=" col-xs-6">
+        <a href="r8lp.html"><div id="sample1" class="sample-img"></div></a>
+      </div>
+      <div class=" col-xs-6">
+        <a href="organix.html"><div id="sample2" class="sample-img"></div></a>
+      </div>
+      <div class="clearfix"></div>
+      <div class=" col-xs-6">
+        <a href="sm.html"><div id="sample3" class="sample-img"></div></a>
+      </div>
+      <div class=" col-xs-6">
+        <a href="star.html"><div id="sample4" class="sample-img"></div></a>
+      </div>     
+    </div><!--row-->
+  </section><!--samples-->
+
+  <section id="contact">
+    <div class="row content">
+      <div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 hidden-xs">
+       <h3>Kindly complete the following form and I will contact you at my earliest availability. Thank you.</h3>
+      </div>
+      <div class="clearfix hidden"></div>
+      
+      <div class="contact-content col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2">
+      <form action="//formspree.io/jkeownwebdev@gmail.com" method="POST">
+        
+        <div class="form-group">
+          <label for="msg"><span lang:en>How may I serve you:</span></label>
+          <textarea id="msg" class="form-control" rows="3" name="company info" placeholder="Please describe your company and its current goals..." required></textarea>
+        </div>
+        
+        <div class="form-group">
+          <label for="mail"><span lang:en>E-mail:</span></label>
+          <input class="form-control" type="email" id="mail" required name="email" placeholder="E-mail"/>
+        </div>
+
+        <div class="form-group">
+          <label for="name"><span lang:en>Name:</span></label>
+          <input class="form-control" type="text" id="name" name="name" placeholder="Name"/>
+        </div>
+
+        <div id="button">
+          <input class="form-control" id="submit" type="submit" value="Send your request" />
+        </div>
+	    </form>
+      </div>
+    </div><!--row-->    
+  </section><!--contact-->
+  
+  <footer>
+    <div>
+      &copy Copyright 2016 jKeown Web Development. All rights reserved.
+    </div>
+  </footer>
+    
+</div><!--container-fluid-->
+
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 
 <script>
   var uncheck = function(){
