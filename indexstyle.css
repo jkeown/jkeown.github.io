@@ -130,10 +130,10 @@ nav a:hover {
   top: 10vh;
 }
 
-.samples-content, .contact-content {
+/*.samples-content, .contact-content {
   position: relative;
   top: 2vh;
-}
+}*/
 
 #about, #samples, #contact {
   background:  linear-gradient(to bottom right, #999, lightblue);  
@@ -220,12 +220,25 @@ nav a:hover {
   }
 }
 
-@media (min-width: 544px){
- 
+@media (max-width: 767px){
+  .sample-img {
+  height: 20vh;
+  /*max-height: 252px;*/
+  margin: 0 auto 10px;
+  max-width: 349px;
+  }
+  
+  #samples .clearfix {
+    display:none;
+  }
+  
+  #samples .row {
+    top: -2vh;
+  }
 }
 
 
-@media screen and (min-width: 740px) {
+@media screen and (min-width: 768px) {
   .slide {
     display: none;
   }
@@ -250,8 +263,8 @@ nav a:hover {
   padding-bottom: 2px;
 }
   
+ 
 }
-
 /********** Large devices only **********/
 @media (min-width: 1200px) {
 	
