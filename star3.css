@@ -15,7 +15,7 @@ body {
   overflow: hidden;
 }
 
-#button {
+/*#button {
   animation: backbutton 1s 5s forwards;
   background: rgba(128, 0 , 128, 0.9);
   border: 3px solid purple;
@@ -35,7 +35,7 @@ body {
   right: 0;
   bottom: 0;
   left: 0;
-}
+}*/
 
 
 div:nth-of-type(1) {
@@ -398,4 +398,30 @@ div:nth-of-type(52) {
 
 @keyframes backbutton {
     100% {opacity: 1;}
+}
+
+@keyframes backbutton {
+        100% {opacity: 1;}
+    }
+
+#button {
+      animation: backbutton 1s 3s forwards;
+      background: rgba(128, 0 , 128, 0.9);
+      border: 3px solid purple;
+      border-radius: 5px;   
+      color: white;
+      font-size: 1.5rem;
+      margin: 20px auto;
+      opacity: 0;
+      padding: 10px;
+      position: fixed;
+      width: 25px;
+      right: 2%;
+      text-align: center;
+      text-shadow: 0 0 10px purple;
+      top: 0;
+    }
+
+#button:hover {
+  background: rgba(128, 0 , 128, 1);
 }

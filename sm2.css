@@ -15,7 +15,7 @@ body {
   height: 100%;
 }
 
-#button {
+/*#button {
 	  background: rgba(128, 0 , 128, 0.9);
 	  border: 3px solid purple;
 	  border-radius: 5px;
@@ -26,6 +26,31 @@ body {
 	  max-width: 250px;
 	  text-align: center;
 	  text-shadow: 0 0 10px purple;
+}*/
+@keyframes backbutton {
+        100% {opacity: 1;}
+    }
+
+#button {
+      animation: backbutton 1s 3s forwards;
+      background: rgba(128, 0 , 128, 0.9);
+      border: 3px solid purple;
+      border-radius: 5px;   
+      color: white;
+      font-size: 1.5rem;
+      margin: 20px auto;
+      opacity: 0;
+      padding: 10px;
+      position: fixed;
+      max-width: 250px;
+      right: 2%;
+      text-align: center;
+      text-shadow: 0 0 10px purple;
+      top: 30%;
+      z-index: 99999;
+    }
+#button:hover {
+  background: rgba(128, 0 , 128, 1);
 }
 
 blockquote {
@@ -175,12 +200,11 @@ li {
 
 /***************************************************** Responsive layouts below */
 
-/*@media screen and (max-height: 400px) {
-    li {
-        padding: 10px 5px;
-    }
-
-}*/
+@media screen and (max-width: 499px) {
+    #button {
+    top: 15%;
+  }
+}
 
 @media screen and (min-width: 500px) {
   blockquote {
@@ -188,7 +212,7 @@ li {
     line-height: 1.25em;
     text-align: center;
   }
-  
+
   #top, #pseudo-top {
     height: 25vw;
   }
@@ -196,7 +220,8 @@ li {
   #jumpy:before { 
     margin-top: -25vw; 
     height: 25vw; 
-}
+  }
+
   
 }
 
