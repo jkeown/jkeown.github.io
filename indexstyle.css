@@ -173,7 +173,7 @@ nav a:hover {
   clear: both;
 }
 
- #sample1 {
+ /*#sample1 {
     background: url("images/djreightss.png") no-repeat center;
     background-position: contain; 
   }
@@ -191,7 +191,10 @@ nav a:hover {
   #sample4 {
     background:  url("images/starrynightss.png") no-repeat;
     background-position: contain;
-  }
+  }*/
+.form-group {
+  margin-top: 10%; 
+}
 
 /*************Portfolio Cube****************/
 @keyframes spin {
