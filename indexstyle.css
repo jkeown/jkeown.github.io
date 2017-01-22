@@ -147,12 +147,12 @@ nav a:hover {
   border-radius: 50%;
   float: left;
   height:  25vh;
-  margin: 25px 25px 25px 0;
+  shape-margin: 10px;
   shape-outside: circle();
 }
 
 #samples h2 {
-  margin: 100px 0;
+  margin: 100px 0 50px 0;
 }
 
 /*.sample-img {
