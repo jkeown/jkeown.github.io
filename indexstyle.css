@@ -147,7 +147,8 @@ nav a:hover {
   border-radius: 50%;
   float: left;
   height:  25vh;
-  shape-margin: 10px;
+  margin-right: 12px; 
+  shape-margin: 2.5px;
   shape-outside: circle();
 }
 
