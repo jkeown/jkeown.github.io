@@ -136,7 +136,7 @@ nav a:hover {
 }*/
 
 #about, #samples, #contact {
-  background:  linear-gradient(to bottom right, #999 10%, lightblue);  
+  background:  linear-gradient(to bottom right, #999, lightblue);  
 }
 
 .button {
@@ -151,20 +151,17 @@ nav a:hover {
 }
 
 #samples h2 {
-  margin: 50px 0;
+  margin-bottom: 40px;
 }
 
-/*.sample-img {
+.sample-img {
   height: 30vh;
-  max-height: 252px;
+  /*max-height: 252px;*/
   margin: 0 auto;
   max-width: 349px;
 }
 
 .sample-img:hover {
-  box-shadow: 0 0 20px #800080;
-}*/
-#samples img:hover {
   box-shadow: 0 0 20px #800080;
 }
 
@@ -191,57 +188,6 @@ nav a:hover {
     background:  url("images/starrynightss.png") no-repeat;
     background-position: contain;
   }
-
-/*************Portfolio Cube****************/
-@keyframes spin {
-      from { transform: rotateY(0); }
-      to { transform: rotateY(360deg); }
-    }
-    .cubeWrap {
-      perspective: 800px;
-      /*perspective-origin: 50% 100px;*/
-    }
-    .cube {
-      position: relative;
-      width: 200px;
-      transform-style: preserve-3d;
-      margin: 0 auto;
-      animation: spin 10s infinite linear;
-    }
-    .cube div {
-      position: absolute;
-      width: 200px;
-      height: 200px;
-      background:rgba(255,255,255,0.1);
-      box-shadow:inset 0 0 30px rgba(0,0,0,0.2);
-    }
-    .cube div img {
-      height: 100%;
-      width: 100%;
-    }
-    .back {
-      transform: translateZ(-100px) rotateY(180deg);
-    }
-    .right {
-      transform: rotateY(-270deg) translateX(100px);
-      transform-origin: top right;
-    }
-    .left {
-      transform: rotateY(270deg) translateX(-100px);
-      transform-origin: center left;
-    }
-    .top {
-      transform: rotateX(-90deg) translateY(-100px);
-      transform-origin: top center;
-    }
-    .bottom {
-      transform: rotateX(90deg) translateY(100px);
-      transform-origin: bottom center;
-    }
-    .front {
-      transform: translateZ(100px);
-    }
-/*************Portfolio Cube End*************/ 
 
 /**************Media Queries************/
 @media (max-height: 400px){
