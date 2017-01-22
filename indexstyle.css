@@ -136,7 +136,7 @@ nav a:hover {
 }*/
 
 #about, #samples, #contact {
-  background:  linear-gradient(to bottom right, #999 10%, lightblue);  
+  background:  linear-gradient(to bottom right, #c5c5d0 20%, #82edfe);  
 }
 
 .button {
