@@ -145,9 +145,10 @@ nav a:hover {
 
 #about img {
   border-radius: 50%;
-  float: right;
-  height:  30vh;
-  margin-left: 5px;
+  float: left;
+  height:  25vh;
+  margin-right: 15px;
+  shape-outside: circle();
 }
 
 #samples h2 {
