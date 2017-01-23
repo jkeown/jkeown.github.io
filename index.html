@@ -7,6 +7,7 @@
     <link rel="icon" type="image/png" href="images/jkicon.png"/>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="indexstyle.css">
+    <script src="js/smooth-scroll.js"></script>
   </head>
 <body>
   <header>
@@ -15,10 +16,10 @@
       <label for="slidetoggle" class="slide">≡</label>
       <nav id="navslide" class="">
         <ul>
-          <a href="#home" onclick="uncheck()"><li>Home</li></a>
-          <a href="#about" onclick="uncheck()"><li>About</li></a>
-          <a href="#samples" onclick="uncheck()"><li>Portfolio</li></a>
-          <a href="#contact" onclick="uncheck()"><li>Contact</li></a>
+          <a data-scroll href="#home" onclick="uncheck()"><li>Home</li></a>
+          <a data-scroll href="#about" onclick="uncheck()"><li>About</li></a>
+          <a data-scroll href="#samples" onclick="uncheck()"><li>Portfolio</li></a>
+          <a data-scroll href="#contact" onclick="uncheck()"><li>Contact</li></a>
         </ul>
       </nav>
   </header>
@@ -117,8 +118,10 @@
 
 <script>
   var uncheck = function(){
-  document.getElementById('slidetoggle').checked= false;
+    document.getElementById('slidetoggle').checked= false;
   }
+
+  smoothScroll.init();
 </script>
 </body>
 </html>
