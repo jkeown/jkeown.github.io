@@ -326,6 +326,10 @@ nav a:hover {
   }
 
   /*****************Portfolio Cube****************/
+  
+  .cubeWrap {
+     perspective: 1000px;
+  }
 
   .cube {
       width: 300px;
