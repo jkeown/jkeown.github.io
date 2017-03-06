@@ -60,6 +60,14 @@ h1, h2, h3 {
   left: 5px;
 }
 
+#phone a {
+  color: white;
+  text-decoration: none;
+}
+
+#phone a:hover {
+  font-size: 1.2em;
+}
 /************************navigation & toggle******/
 nav a {
   color: white;
