@@ -36,7 +36,7 @@ section {
 footer {
   background: #800080;
   color: white;
-  height: 50px;
+  width: 100%;
   padding: 10px;
   text-align: center;
 }
@@ -209,6 +209,7 @@ nav a:hover {
       position: relative;
       width: 200px;
       transform-style: preserve-3d;
+      -ms-transform-style: preserve-3d;
       margin: 0 auto;
       animation: spin 10s infinite linear;
     }
