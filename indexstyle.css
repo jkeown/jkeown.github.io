@@ -341,7 +341,7 @@ nav a:hover {
   /*****************Portfolio Cube****************/
   
   .cubeWrap {
-     perspective: 1000px;
+     perspective: 800px;
   }
 
   .cube {
