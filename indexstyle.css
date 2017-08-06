@@ -160,7 +160,11 @@ nav a:hover {
 }
 
 #samples h2 {
-  margin: 100px 0 50px 0;
+  margin: 100px 0 5% 0;
+}
+#samples h3 {
+  width: 70vw;
+  margin: 5% auto;
 }
 
 /*.sample-img {
@@ -173,8 +177,14 @@ nav a:hover {
 .sample-img:hover {
   box-shadow: 0 0 20px #800080;
 }*/
-#samples img:hover {
+/*#samples img:hover {
   box-shadow: 0 0 20px #800080;
+}*/
+#samples img {
+  position: relative;
+  margin: 0 auto;
+  height: 30vh;
+  max-width: 50vw;
 }
 
 .clearfix {
