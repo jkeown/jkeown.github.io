@@ -1,0 +1,120 @@
+@keyframes swell {
+	50% {
+		font-size: 3rem;
+	}
+}
+
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+	background-color: #000000;
+	font-family: 'Pompiere', cursive;
+}
+.nav-link {
+	font-size: 3rem;
+}
+footer {
+	background-image: linear-gradient(#b60000, #000 70%);
+}
+.footer-icon{
+	font-size: 3rem;
+	color: #fff;
+}
+/* .footer-icon:hover {
+	font-size: 4rem;
+} */
+
+/* INDEX PAGE */
+.index-page-container img{
+	max-height: 80vh;
+}
+.enter {
+	color: #fff;
+	font-size: 2.5rem;
+	animation: swell 2s infinite;
+}
+.enter:hover {
+	color: #fff;
+	text-decoration: none;
+	font-size: 2.5rem;
+}
+/* INDEX PAGE END */
+
+/* MAIN PAGE */
+.main-page-logo {
+	position: absolute;
+	background-color: none;
+}
+
+.main-page-container {
+	background-image: url(../img/scratchingb&w.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	min-height: 100vh;
+}
+.main-page-container a, .calendar {
+	color: #fe0000;
+	border: 2px solid #000;
+	border-radius: 5%;
+	background-color: rgba(182, 0, 0, 0.2);
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 5vw;
+}
+.main-page-container a {
+	padding: 20%;
+}
+.link-box {
+	position: relative;
+	top: 35vh;
+}
+.calendar {
+	position: relative;
+	top: 10vh;
+	min-height: 50vh;
+}
+/* MAIN PAGE END */
+
+
+
+
+/*MEDIA QUERIES*/
+@media (min-width: 500px) {
+	.link-box {
+		position: relative;
+		top: 45vh;
+	}
+}
+
+@media (min-width: 650px) {
+	.link-box {
+		position: relative;
+		top: 50vh;
+	}
+	.main-page-container a {
+		padding: 10%;
+	}
+}
+
+@media (min-width: 992px) {
+	.main-page-container {
+		min-height: 150vh;
+	}
+	.link-box {
+		top: 50vh;
+	}
+	.calendar {
+		top: 20vh;
+	}
+	footer {
+		font-size: 1.5rem;
+	}
+	.footer-icon{
+		font-size: 5rem;
+		padding: 50px !important;
+	}
+}
