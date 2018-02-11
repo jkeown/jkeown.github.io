@@ -138,11 +138,6 @@ nav a:hover {
   top: 10vh;
 }
 
-/*.samples-content, .contact-content {
-  position: relative;
-  top: 2vh;
-}*/
-
 #about, #samples, #contact {
   background:  linear-gradient(to bottom right, #c5c5d0 20%, #82edfe);  
 }
@@ -167,104 +162,19 @@ nav a:hover {
   margin: 5% auto;
 }
 
-/*.sample-img {
-  height: 30vh;
-  max-height: 252px;
-  margin: 0 auto;
-  max-width: 349px;
-}
-
-.sample-img:hover {
-  box-shadow: 0 0 20px #800080;
-}*/
-/*#samples img:hover {
-  box-shadow: 0 0 20px #800080;
-}*/
 #samples img {
   position: relative;
   margin: 0 auto;
   height: 30vh;
-  /*max-width: 50vw;*/
 }
 
 .clearfix {
   clear: both;
 }
 
- /*#sample1 {
-    background: url("images/djreightss.png") no-repeat center;
-    background-position: contain; 
-  }
-
-  #sample2 {
-    background: url("images/organixss.png") no-repeat top center;
-    background-position: contain;
-  }
-
-  #sample3 {
-    background:  url("images/supermoversss.png") no-repeat;
-    background-position: contain;
-  }
-
-  #sample4 {
-    background:  url("images/starrynightss.png") no-repeat;
-    background-position: contain;
-  }*/
 .form-group {
   margin-top: 10%; 
 }
-
-/*************Portfolio Cube****************/
-@keyframes spin {
-      from { transform: rotateY(0); }
-      to { transform: rotateY(360deg); }
-    }
-    .cubeWrap {
-      perspective: 800px;
-      /*perspective-origin: 50% 100px;*/
-    }
-    .cube {
-      position: relative;
-      width: 200px;
-      transform-style: preserve-3d;
-      -ms-transform-style: preserve-3d;
-      margin: 0 auto;
-      animation: spin 10s infinite linear;
-    }
-    .cube div {
-      position: absolute;
-      width: 200px;
-      height: 200px;
-      background:rgba(255,255,255,0.1);
-      box-shadow:inset 0 0 30px rgba(0,0,0,0.2);
-    }
-    .cube div img {
-      height: 100%;
-      width: 100%;
-    }
-    .back {
-      transform: translateZ(-100px) rotateY(180deg);
-    }
-    .right {
-      transform: rotateY(-270deg) translateX(100px);
-      transform-origin: top right;
-    }
-    .left {
-      transform: rotateY(270deg) translateX(-100px);
-      transform-origin: center left;
-    }
-    .top {
-      transform: rotateX(-90deg) translateY(-100px);
-      transform-origin: top center;
-    }
-    .bottom {
-      transform: rotateX(90deg) translateY(100px);
-      transform-origin: bottom center;
-    }
-    .front {
-      transform: translateZ(100px);
-    }
-/*************Portfolio Cube End*************/ 
 
 /**************Media Queries************/
 @media (max-height: 400px){
@@ -348,46 +258,7 @@ nav a:hover {
     line-height: 1.5em;
   }
 
-  /*****************Portfolio Cube****************/
   
-  .cubeWrap {
-     perspective: 800px;
-  }
-
-  .cube {
-    margin: 0 auto;
-    width: 300px;
-  }
-
-  .cube div {
-    width: 300px;
-    height: 300px;
-  }
-
-  .back {
-    transform: translateZ(-150px) rotateY(180deg);
-  }
-  .right {
-    transform: rotateY(-270deg) translateX(150px);
-  }
-  .left {
-    transform: rotateY(270deg) translateX(-150px);
-
-  }
-  .top {
-    transform: rotateX(-90deg) translateY(-150px);
-
-  }
-  .bottom {
-    transform: rotateX(90deg) translateY(150px);
-  
-  }
-  .front {
-    transform: translateZ(150px);
-  }
-
-  /***************Portfolio Cube End**************/
-
   .form-group {
   margin-top: 5%; 
   }
@@ -396,17 +267,17 @@ nav a:hover {
 }
 /********** Large devices only **********/
 @media (min-width: 1200px) {
-	
+  
 }
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
-	
+  
 }
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-	
+  
 }
 
 /********** Extra Small devices only **********/
@@ -416,5 +287,5 @@ nav a:hover {
 
 /********** Super extra small devices only :-) (e.g., iPhone4) **********/
 @media (max-width: 479px) {
-	
+  
 }

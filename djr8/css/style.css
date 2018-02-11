@@ -6,12 +6,13 @@
 
 
 html {
-  position: relative;
-  min-height: 100%;
+  /* position: relative; */
+  /* min-height: 100%; */
 }
 body {
 	background-color: #000000;
 	font-family: 'Pompiere', cursive;
+	min-height: 100vh;
 }
 .nav-link {
 	font-size: 3rem;
@@ -44,19 +45,14 @@ footer {
 /* INDEX PAGE END */
 
 /* MAIN PAGE */
-.main-page-logo {
-	position: absolute;
-	background-color: none;
-}
-
 .main-page-container {
 	background-image: url(../img/scratchingb&w.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top center;
-	min-height: 100vh;
+	min-height: 80vh;
 }
-.main-page-container a, .calendar {
+.main-page-container a {
 	color: #fe0000;
 	border: 2px solid #000;
 	border-radius: 5%;
@@ -65,38 +61,21 @@ footer {
 	font-weight: bold;
 	font-size: 5vw;
 }
-.main-page-container a {
-	padding: 20%;
-}
-.link-box {
-	position: relative;
-	top: 35vh;
-}
 .calendar {
-	position: relative;
-	top: 10vh;
-	min-height: 50vh;
+	margin-top: 15vh;
 }
+
 /* MAIN PAGE END */
-
-
 
 
 /*MEDIA QUERIES*/
 @media (min-width: 500px) {
-	.link-box {
-		position: relative;
-		top: 45vh;
-	}
+	
 }
 
-@media (min-width: 650px) {
-	.link-box {
-		position: relative;
-		top: 50vh;
-	}
-	.main-page-container a {
-		padding: 10%;
+@media (max-width: 650px) {
+	.logo {
+		max-height: 200px;
 	}
 }
 
@@ -104,11 +83,9 @@ footer {
 	.main-page-container {
 		min-height: 150vh;
 	}
-	.link-box {
-		top: 50vh;
-	}
-	.calendar {
-		top: 20vh;
+	.calendar-modal {
+		margin-left: -25%;
+		width: 150%;
 	}
 	footer {
 		font-size: 1.5rem;
