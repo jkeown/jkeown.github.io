@@ -62,7 +62,8 @@ footer {
 	font-size: 5vw;
 }
 .calendar {
-	margin-top: 15vh;
+	padding: 5vh 0;
+	opacity: 0.8;
 }
 
 /* MAIN PAGE END */
@@ -83,10 +84,10 @@ footer {
 	.main-page-container {
 		min-height: 150vh;
 	}
-	.calendar-modal {
+	/*.calendar-modal {
 		margin-left: -25%;
 		width: 150%;
-	}
+	}*/
 	footer {
 		font-size: 1.5rem;
 	}
