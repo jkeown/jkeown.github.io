@@ -61,10 +61,15 @@ footer {
 	font-weight: bold;
 	font-size: 5vw;
 }
-.calendar {
-	padding: 5vh 0;
-	opacity: 0.8;
+.table {
+	color: #fe0000;
+	background-color: rgba(182, 0, 0, 0.2);
 }
+th, td {
+	border-top-color: #000 !important;
+	border-top-bottom: #000 !important;
+}
+
 
 /* MAIN PAGE END */
 
