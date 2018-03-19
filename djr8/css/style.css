@@ -152,13 +152,15 @@ nav {
 	text-shadow: .5px .5px 0 #fff;
 }
 .bio-body .btn {
-	color: #b60000;
-	border: 5px solid #b60000;
+	background-color: #ffdc00;
+	border: 5px solid #f9a602;
+	color: #000;
+	font-weight: bold;
 	font-size: 1.7rem;
 }
 .bio-body .btn:hover {
-	color: #fff;
-	background: #b60000;
+	border: 3px solid #f9a602;
+	box-shadow: 0 15px 2px -10px #000;
 }
 /* BIO PAGE END */
 
@@ -231,12 +233,15 @@ table th:last-child{
 	font-size: 1.3rem;
 }
 #packages .btn {
-	color: #b60000;
-	font-size: 1.5rem;
+	background-color: #ffdc00;
+	border: 5px solid #f9a602;
+	color: #000;
+	font-weight: bold;
+	font-size: 1.7rem;
 }
 #packages .btn:hover {
-	background: #b60000;
-	color: #fff;
+	border: 3px solid #f9a602;
+	box-shadow: 0 15px 2px -10px #000;
 }
 .platinum {
 	color: #fff;
