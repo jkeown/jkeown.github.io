@@ -251,6 +251,19 @@ table th:last-child{
 }
 /* PACKAGES PAGE END */
 
+/*CONTACT PAGE*/
+form {
+	background: rgba(182, 0, 0, 0.9);
+}
+label {
+	color: #fff;
+	font-size: 1.5rem;
+}
+.form-check-label {
+	font-size: 1.7rem;
+}
+/*CONTACT PAGE END*/
+
 /*MEDIA QUERIES*/
 @media (min-width: 500px) {
 	.overlay {
