@@ -137,7 +137,6 @@ nav {
 .bio-page {
 	background-image: url('../img/dj_2.jpeg');
 	background-repeat: no-repeat; 
-	height: 90vh;
 }
 .text {
 	background: #C7D6EB;
@@ -147,6 +146,7 @@ nav {
 }
 .text-sm {
 	background: none;
+	font-size: 1.7rem;
 	width: 60%;
 	text-shadow: .5px .5px 0 #fff;
 }
@@ -255,6 +255,9 @@ table th:last-child{
 	}
 	.slide2 {
 		background-position: bottom center;
+	}
+	.carousel-item {
+		height: 300px;
 	}
 }
 
