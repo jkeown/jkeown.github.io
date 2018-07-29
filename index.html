@@ -6,7 +6,6 @@
   <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
   <link rel="stylesheet" href="css/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portfolio</title>
 </head>
 
 <body>
@@ -38,27 +37,32 @@
       <a class="sidenav-close" href="#contact">Contact</a>
     </li>
   </ul>
-
+  <div id="bg-pretty">
+    <div class="container">
+      <section id="welcome-section" class="row scrollspy">
+        <h1 class="center-align">Hello and welcome to my humble portfolio page!</h1>
+        <div class="col m3 offset-s2" id="headshot">
+          <img src="img/me.jpg" class="responsive-img circle">
+        </div>
+        <div class="col m9">
+          <p class="flow-text">My name is Jared. I realized I had an interest in computer programming after a semester of C++. I then started
+            playing a little with the Python language. In 2016, I decided to focus my efforts into becoming a web developer.
+            I've used many online resources, including
+            <a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a>, to teach myself. I've also purchased courses from
+            <a href="https://www.traversymedia.com/" target="_blank">Brad Traversy</a> and
+            <a href="https://wesbos.com/" target="_blank">Wes Bos</a> whom I'd like to thank now for their exceptional instruction. Currently, I enjoy using the vanilla
+            flavors of HTML, CSS, and JavaScript. I've also used Bootstrap and Materialize. I have some exposure to Angular,
+            Django, Emmet, Firebase, Gatsby, Git, jQuery, PHP, Python, React, Sass, SQL, and Wordpress. I look forward to
+            ever learning and increasing my programming skills.</p>
+        </div>
+      </section>
+      <div class="divider"></div>
+    </div>
+  </div>
   <div class="container">
-    <section id="welcome-section" class="row scrollspy">
-      <h1 class="center-align">Hello and welcome to my humble portfolio page!</h1>
-      <div class="col m3 offset-s2" id="headshot">
-        <img src="img/me.jpg" class="responsive-img circle">
-      </div>
-      <div class="col m9">
-        <p class="flow-text">My name is Jared. I realized I had an interest in computer programming after a semester of C++. I then started playing
-          a little with the Python language. In 2016, I decided to focus my efforts into becoming a web developer. I've used
-          many online resources, including
-          <a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a>, to teach myself. I've also purchased courses from
-          <a href="https://www.traversymedia.com/" target="_blank">Brad Traversy</a> and
-          <a href="https://wesbos.com/" target="_blank">Wes Bos</a> whom I'd like to thank now for their exceptional instruction. Currently, I enjoy using the vanilla
-          flavors of HTML, CSS, and JavaScript. I've also used Bootstrap and Materialize. I have some exposure to Angular, Django, Emmet, Firebase, Gatsby, Git, jQuery, PHP, Python, React, Sass, SQL, and Wordpress. I look forward to ever learning and increasing my programming skills.</p>
-      </div>
-    </section>
-    <div class="divider"></div>
     <section id="projects" class="row scrollspy">
       <h2 class="center-align">PROJECTS</h2>
-      <div class="col m6">
+      <div class="col s12 m6">
         <div class="card project-tile">
           <div class="card-image">
             <img src="img/productLanding.jpg" alt="Product Landing Page" class="">
@@ -69,7 +73,7 @@
         </div>
       </div>
 
-      <div class="col m6">
+      <div class="col s12 m6">
         <div class="card project-tile">
           <div class="card-image">
             <img src="img/techDocs.jpg" alt="Technical Documentation">
@@ -80,7 +84,7 @@
         </div>
       </div>
 
-      <div class="col m6">
+      <div class="col s12 m6">
         <div class="card project-tile">
           <div class="card-image">
             <img src="img/weatherApp.jpg" alt="Weather App">
@@ -91,7 +95,7 @@
         </div>
       </div>
 
-      <div class="col m6">
+      <div class="col s12 m6">
         <div class="card project-tile">
           <div class="card-image">
             <img src="img/surveyForm.jpg" alt="Survey Form">
@@ -102,7 +106,7 @@
         </div>
       </div>
 
-      <div class="col m6">
+      <div class="col s12 m6">
         <div class="card project-tile">
           <div class="card-image">
             <img src="img/tributePage.jpg" alt="Tribute Page">
@@ -115,7 +119,7 @@
 
 
 
-      <div class="col m6">
+      <div class="col s12 m6">
         <div class="card project-tile">
           <div class="card-image">
             <img src="img/wikiViewer.jpg" alt="Wikipedia Viewer">
@@ -130,13 +134,19 @@
     <section id="contact" class="row scrollspy">
       <h4 class="center-align">See more of my creations at:</h4>
       <div class="col s12 m4 center-align" id="codepen">
-          <a href="https://codepen.io/jkeown/" target="_blank"><img src="img/codepen.svg" alt="freeCodeCamp Icon" class="icons"></a>
+        <a href="https://codepen.io/jkeown/" target="_blank">
+          <img src="img/codepen.svg" alt="freeCodeCamp Icon" class="icons">
+        </a>
       </div>
       <div class="col s12 m4 center-align" id="fcc">
-          <a href="https://www.freecodecamp.org/kindkode" id="profile-link" target="_blank"><img src="img/fcc.svg" alt="freeCodeCamp Icon" class="icons"></a>
+        <a href="https://www.freecodecamp.org/kindkode" id="profile-link" target="_blank">
+          <img src="img/fcc.svg" alt="freeCodeCamp Icon" class="icons">
+        </a>
       </div>
       <div class="col s12 m4 center-align" id="fcc">
-          <a href="https://github.com/jkeown" target="_blank"><img src="img/github.svg" alt="Github Icon" class="icons"></a>
+        <a href="https://github.com/jkeown" target="_blank">
+          <img src="img/github.svg" alt="Github Icon" class="icons">
+        </a>
       </div>
     </section>
   </div>
@@ -144,7 +154,7 @@
     <p class="white-text center-align">&copy2018 Jared Keown</p>
   </footer>
 
-  
+
   <script type="text/javascript" src="js/materialize.min.js"></script>
   <script src="js/app.js"></script>
 
