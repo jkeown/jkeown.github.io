@@ -18,3 +18,6 @@ document.addEventListener('DOMContentLoaded', function() {
   let elems = document.querySelectorAll('.scrollspy');
   M.ScrollSpy.init(elems,{});
 });
+
+// set copyright current year
+document.getElementById('currentYear').textContent = new Date().getFullYear();
