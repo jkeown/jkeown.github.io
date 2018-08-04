@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="300" height="150" viewBox="0 0 79.375 39.688" id="svg8">
+  <defs id="defs2">
+    <linearGradient id="whiteblue-5">
+      <stop id="stop4602" offset="0" stop-color="red"/>
+      <stop offset=".52" id="stop4631" stop-color="#fff"/>
+      <stop id="stop4633" offset=".966" stop-color="#00f"/>
+      <stop id="stop4604" offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient xlink:href="#whiteblue-5" id="linearGradient4629" gradientUnits="userSpaceOnUse" x1="-254.199" y1="312.945" x2="-255.287" y2="444.521" gradientTransform="matrix(.13645 0 0 .13645 75.148 224.474)"/>
+  </defs>
+  <g id="layer1" transform="translate(0 -257.313)">
+    <path d="M16.265 270.635c-3.323.509-6.44 2.044-9.49 3.92l1.135 3.404-1.135 3.713c4.271 2.16 9.174 3.686 14.544 4.745 9.749 1.148 19.731.923 29.604.929 8.992.005 18.495-2.703 25.168-9.49-2.862-2.408-5.911-4.565-9.593-5.88" id="path4496" fill="none" stroke="#000" stroke-width=".794"/>
+    <text style="line-height:1.25;-inkscape-font-specification:'Arial Rounded MT Bold, '" x="-404.435" y="-27.304" id="text4500" font-weight="400" font-size="4.233" font-family="Arial Rounded MT Bold" letter-spacing="0" word-spacing="0" stroke-width=".265"/>
+    <text style="line-height:1.25;-inkscape-font-specification:'Arial Rounded MT Bold, '" x="14.909" y="284.706" id="text4508" font-weight="400" font-size="23.901" font-family="Arial Rounded MT Bold" letter-spacing="0" word-spacing="0" fill="url(#linearGradient4629)" stroke-width=".448">
+      <tspan id="tspan4506" x="14.909" y="284.706">RAD</tspan>
+    </text>
+    <path d="M7.91 277.959l8.496.002" id="path4635" fill="none" stroke="#000" stroke-width=".265"/>
+    <path d="M76.091 277.856l-10.02.007" id="path4637" fill="none" stroke="#000" stroke-width=".265"/>
+  </g>
+</svg>
