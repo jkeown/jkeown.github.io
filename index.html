@@ -45,7 +45,7 @@
           <img src="img/me.jpg" class="responsive-img circle">
         </div>
         <div class="col m10">
-          <p class="flow-text">I'm Jared. After a semester of C++, I realized I had an interest in computer programming.
+          <p class="flow-text">I'm Jared. I realized having an interest in computer programming after a semester of C++.
             This interest grew as I explored the Python language. In 2016, my efforts were focused into becoming a web developer.
           </p>
 
@@ -56,9 +56,9 @@
             <a href="https://wesbos.com/" target="_blank">Wes Bos</a>; whom I'd like to thank now for their exceptional instruction.
           </p>
           <p class="flow-text">
-            Currently, I enjoy using the vanilla flavors of HTML, CSS, and JavaScript. I've also used Bootstrap and am gravitating more
-            towards Material Design. Having some exposure to Angular, Django, Emmet, Firebase, Gatsby, Git, jQuery, PHP,
-            React, Sass, SQL, and Wordpress; I look forward to ever strengthening my programming skills.
+            Currently, I enjoy using the vanilla flavors of HTML, CSS, and JavaScript. I've also used Bootstrap and Materialize. Having
+            some exposure to Angular, Django, Emmet, Firebase, Gatsby, Git, jQuery, PHP, React, Sass, SQL, and Wordpress;
+            I look forward to ever expanding my programming skills.
           </p>
         </div>
       </section>
@@ -161,34 +161,84 @@
       </div>
     </section>
     <div class="divider"></div>
-    <section id="contact" class="row scrollspy">
-      <h4 class="center-align">Visit me also at:</h4>
-      <div class="col s12 m4 center-align" id="codepen">
-        <a href="https://codepen.io/jkeown/" target="_blank">
-          <img src="img/codepen.svg" alt="freeCodeCamp Icon" class="icons">
-        </a>
+    <section id="contact" class="scrollspy">
+      <div class="row">
+        <div class="card col s12 m6 offset-m3 form-container">
+          <div class="card-content center-align">
+            <span class="card-title activator green-text text-darken-4 contact-title">Get In Touch<br><i class="material-icons large contact-icon">mood</i></span>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title green-text text-darken-4">Here you go:<i class="material-icons right">close</i></span>
+
+            <form class="col s12" action="https://formspree.io/jkeownwebdev@gmail.com" method="POST">
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="name" type="text" class="validate" name="name">
+                  <label for="name">Name</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="email" type="email" class="validate" name="_replyto">
+                  <label for="email">Email</label>
+                </div>
+              </div>
+              <div class="row">
+
+                <div class="input-field col s12">
+                  <textarea id="textarea" class="materialize-textarea" name="message"></textarea>
+                  <label for="textarea">Message</label>
+                </div>
+
+              </div>
+              <div class="center-align">
+                <button class="btn waves-effect waves-light green darken-4" type="submit" name="action" value="Send">Submit
+                  <i class="material-icons right">send</i>
+                </button>
+              </div>
+            </form>
+
+          </div>
+        </div>
       </div>
-      <div class="col s12 m4 center-align" id="fcc">
-        <a href="https://www.freecodecamp.org/kindkode" id="profile-link" target="_blank">
-          <img src="img/fcc.svg" alt="freeCodeCamp Icon" class="icons">
-        </a>
-      </div>
-      <div class="col s12 m4 center-align" id="fcc">
-        <a href="https://github.com/jkeown" target="_blank">
-          <img src="img/github.svg" alt="Github Icon" class="icons">
-        </a>
+      <!-- <div class="divider"></div> -->
+
+      <div class="row">
+        <h4 class="center-align">Visit me also at:</h4>
+        <div class="col s12 m4 center-align" id="codepen">
+          <a href="https://codepen.io/jkeown/" target="_blank">
+            <img src="img/codepen.svg" alt="freeCodeCamp Icon" class="icons">
+          </a>
+        </div>
+        <div class="col s12 m4 center-align" id="fcc">
+          <a href="https://www.freecodecamp.org/kindkode" id="profile-link" target="_blank">
+            <img src="img/fcc.svg" alt="freeCodeCamp Icon" class="icons">
+          </a>
+        </div>
+        <div class="col s12 m4 center-align" id="fcc">
+          <a href="https://github.com/jkeown" target="_blank">
+            <img src="img/github.svg" alt="Github Icon" class="icons">
+          </a>
+        </div>
       </div>
     </section>
   </div>
   <footer>
     <div class="container">
       <div class="row">
-        <div class="col s12 m6 center-align">
-          <a href="mailto:jkeownwebdev@gmail.com" class="white-text">jkeownwebdev@gmail.com</a>
+        <div class="col s12 m6">
+          <div class="vhcentered">
+            <i class="material-icons white-text">email</i>
+            <a href="mailto:jkeownwebdev@gmail.com" class="white-text">jkeownwebdev@gmail.com</a>
+          </div>
         </div>
 
-        <div class="col s12 m6 center-align">
-          <a href="tel:1-442-222-8957" class="white-text">1-442-222-8957</a>
+        <div class="col s12 m6">
+          <div class="vhcentered">
+            <i class="material-icons white-text">call</i>
+            <a href="tel:1-442-222-8957" class="white-text">1-442-222-8957</a>
+          </div>
+
         </div>
       </div>
     </div>
