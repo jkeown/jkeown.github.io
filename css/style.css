@@ -37,7 +37,7 @@ h1, h2, h4{
 #projects h2:before, #projects h2:after{
   display: block;
   content: '';
-  height: 10px;
+  height: 5px;
   border-radius: 10px;
   background: linear-gradient(to var(--direction, left), var(--blue), transparent);
 } 
@@ -47,8 +47,7 @@ h1, h2, h4{
 #divider:before{
   display: block;
   content: '';
-  height: 10px;
-  margin-bottom: 5px;
+  height: 5px;
   background: linear-gradient(to left, transparent, var(--blue) 50%, transparent);
 }
 .icons{
