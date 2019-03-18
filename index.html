@@ -13,13 +13,17 @@
     <a href="#" class="brand-logo">Jared Keown</a>
     <ul class="hide-on-med-and-down right">
       <li>
-        <a href="#welcome-section">Introducing</a>
+        <a href="#welcome-section" class="nav-link">Introducing</a>
       </li>
       <li>
-        <a href="#projects">Projects</a>
+        <a href="#projects" class="nav-link">Projects</a>
       </li>
       <li>
-        <a href="#contact">Contact</a>/li>
+        <a href="#contact" class="nav-link">Contact</a>
+      </li>
+      <li>
+        <a href="#testimonial" class="nav-link">Testimonials</a>
+      </li>
     </ul>
     <a href="#" data-target="slide-out" class="sidenav-trigger right">
       <i class="material-icons">menu</i>
@@ -35,6 +39,9 @@
     </li>
     <li>
       <a class="sidenav-close" href="#contact">Contact</a>
+    </li>
+    <li>
+      <a class="sidenav-close" href="#testimonial">Testimonials</a>
     </li>
   </ul>
   <div id="bg-pretty">
@@ -198,25 +205,25 @@
             <span class="card-title activator green-text text-darken-4 contact-title">Get In Touch<br><i class="material-icons large contact-icon">mood</i></span>
           </div>
           <div class="card-reveal">
-            <span class="card-title green-text text-darken-4">Here you go:<i class="material-icons right">close</i></span>
+            <span class="card-title green-text text-darken-4">We'll talk soon:<i class="material-icons right">close</i></span>
 
             <form class="col s12" action="https://formspree.io/jkeownwebdev@gmail.com" method="POST">
               <div class="row">
                 <div class="input-field col s12">
-                  <input id="name" type="text" class="validate" name="name">
+                  <input id="name" type="text" class="validate" name="name" required>
                   <label for="name">Name</label>
                 </div>
               </div>
               <div class="row">
                 <div class="input-field col s12">
-                  <input id="email" type="email" class="validate" name="_replyto">
+                  <input id="email" type="email" class="validate" name="_replyto" required>
                   <label for="email">Email</label>
                 </div>
               </div>
               <div class="row">
 
                 <div class="input-field col s12">
-                  <textarea id="textarea" class="materialize-textarea" name="message"></textarea>
+                  <textarea id="textarea" class="materialize-textarea" name="message" required></textarea>
                   <label for="textarea">Message</label>
                 </div>
 
@@ -250,6 +257,47 @@
         </div>
       </div>
     </section>
+    <section id="testimonial" class="container section scrollspy">
+      <div class="row">
+        <div class="">
+          <h3 class="center-align">Kind words said about me</h3>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col m8 offset-m2">
+          <blockquote class="flow-text">
+            I had the pleasure of working with Jared and I'm glad I did. Very good communication throughout the
+            process, professional, knowledgeable, and very respectful on ideas. I was impressed with his work, every
+            detail was made with perfection and I truly appreciated that. Many people have given me good feedback on my
+            website. Once again, very professional and recommendable everytime. Thank you Jared!<br>
+            <span class="right">- Waldo V.</span>
+          </blockquote>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s6 offset-s3 m3 offset-m4 testimony prestige center-align">
+          <a href="https://www.prestigephotoboothlab.com/" target="_blank"><img id="prestige-logo" src="img/prestige-logo-min.svg"
+              alt="prestigephotoboothlab logo"></a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col m8 offset-m2">
+          <blockquote class="flow-text">
+            His professionalism, quick response, and creativity made my experience one of a kind. It was a pleasure
+            having him create my website! <br>
+            <span class="right">- DJ REIGHT</span>
+          </blockquote>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s6 offset-s3 m3 offset-m4 testimony">
+          <a href="https://iamdjreight.com/" target="_blank"><img src="img/djr8logo.png" alt="DJ Reight logo"></a>
+        </div>
+      </div>
+
+    </section>
   </div>
   <footer>
     <div class="container">
@@ -270,7 +318,7 @@
         </div>
       </div>
     </div>
-    <p class="white-text center-align">&copy<span id="currentYear"></span> Jared Keown</p>
+    <p class="white-text center-align">&copy 2018 - <span id="currentYear"></span> Jared Keown</p>
   </footer>
 
 
